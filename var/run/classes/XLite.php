@@ -30,4 +30,4 @@
  * TODO: to revise
  * TODO[SINGLETON]: lowest priority
  */
-class XLite extends \XLite\Module\XC\Concierge\XLite {}
+class XLite extends \XLite\Module\XC\MailChimp\XLite {}

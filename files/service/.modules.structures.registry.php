@@ -1,21 +1,5 @@
 # <?php if (!defined('LC_DS')) { die(); } ?>
 
-CDev-Bestsellers:
-    tables: {  }
-    columns: {  }
-    dependencies: {  }
-CDev-ContactUs:
-    tables: {  }
-    columns: {  }
-    dependencies: {  }
-CDev-Coupons:
-    tables: [order_coupons, coupons, product_class_coupons, membership_coupons, coupon_categories]
-    columns: {  }
-    dependencies: {  }
-CDev-Egoods:
-    tables: [product_attachment_history_points, order_item_private_attachments]
-    columns: { product_attachments: { private: 'private TINYINT(1) NOT NULL' } }
-    dependencies: {  }
 CDev-FeaturedProducts:
     tables: [featured_products]
     columns: {  }
@@ -25,16 +9,8 @@ CDev-FedEx:
     columns: {  }
     dependencies: {  }
 CDev-FileAttachments:
-    tables: [product_attachment_translations, product_attachments, product_attachment_storages]
+    tables: [product_attachment_storages, product_attachments, product_attachment_translations]
     columns: {  }
-    dependencies: {  }
-CDev-GoSocial:
-    tables: {  }
-    columns: { product_translations: { ogMeta: 'ogMeta LONGTEXT DEFAULT NULL' }, categories: { ogMeta: 'ogMeta LONGTEXT DEFAULT NULL', useCustomOG: 'useCustomOG TINYINT(1) NOT NULL' }, products: { useCustomOG: 'useCustomOG TINYINT(1) NOT NULL' }, pages: { useCustomOG: 'useCustomOG TINYINT(1) NOT NULL', ogMeta: 'ogMeta LONGTEXT DEFAULT NULL', showSocialButtons: 'showSocialButtons TINYINT(1) NOT NULL' }, page_translations: { ogMeta: 'ogMeta LONGTEXT NOT NULL' }, category_translations: { ogMeta: 'ogMeta LONGTEXT NOT NULL' } }
-    dependencies: { CDev-SimpleCMS: { pages: { useCustomOG: 'useCustomOG TINYINT(1) NOT NULL', ogMeta: 'ogMeta LONGTEXT DEFAULT NULL', showSocialButtons: 'showSocialButtons TINYINT(1) NOT NULL' }, page_translations: { ogMeta: 'ogMeta LONGTEXT NOT NULL' } } }
-CDev-GoogleAnalytics:
-    tables: {  }
-    columns: { profiles: { gaClientId: 'gaClientId VARCHAR(255) NOT NULL' }, order_items: { categoryAdded: 'categoryAdded VARCHAR(255) DEFAULT NULL' } }
     dependencies: {  }
 CDev-MarketPrice:
     tables: {  }
@@ -61,7 +37,7 @@ CDev-Sale:
     columns: { products: { participateSale: 'participateSale TINYINT(1) NOT NULL', discountType: 'discountType VARCHAR(32) NOT NULL', salePriceValue: 'salePriceValue NUMERIC(14, 4) NOT NULL' } }
     dependencies: {  }
 CDev-SimpleCMS:
-    tables: [page_images, menu_quick_flags, pages, menu_translations, page_translations, menus]
+    tables: [page_images, menu_quick_flags, menus, menu_translations, pages, page_translations]
     columns: { clean_urls: { page_id: 'page_id INT UNSIGNED DEFAULT NULL' } }
     dependencies: {  }
 CDev-UserPermissions:
@@ -76,21 +52,9 @@ CDev-XMLSitemap:
     tables: {  }
     columns: {  }
     dependencies: {  }
-QSL-CloudSearch:
-    tables: {  }
-    columns: { categories: { csLastUpdate: 'csLastUpdate INT NOT NULL' }, products: { csLastUpdate: 'csLastUpdate INT NOT NULL' } }
-    dependencies: {  }
 QSL-FlyoutCategoriesMenu:
     tables: {  }
     columns: {  }
-    dependencies: {  }
-XC-BulkEditing:
-    tables: {  }
-    columns: { products: { xcPendingBulkEdit: 'xcPendingBulkEdit TINYINT(1) NOT NULL' } }
-    dependencies: {  }
-XC-Concierge:
-    tables: {  }
-    columns: { profiles: { conciergeUserId: 'conciergeUserId VARCHAR(128) DEFAULT NULL' } }
     dependencies: {  }
 XC-CrispWhiteSkin:
     tables: {  }
@@ -101,24 +65,8 @@ XC-CustomOrderStatuses:
     columns: {  }
     dependencies: {  }
 XC-CustomProductTabs:
-    tables: [custom_global_tab_translation, custom_global_tabs, product_tabs, product_tab_translations]
+    tables: [custom_global_tabs, custom_global_tab_translation, product_tabs, product_tab_translations]
     columns: { global_product_tabs: { enabled: 'enabled TINYINT(1) NOT NULL', link: 'link VARCHAR(255) DEFAULT NULL' } }
-    dependencies: {  }
-XC-CustomerAttachments:
-    tables: [customer_attachments_storage]
-    columns: { products: { isCustomerAttachmentsAvailable: 'isCustomerAttachmentsAvailable TINYINT(1) NOT NULL', isCustomerAttachmentsRequired: 'isCustomerAttachmentsRequired TINYINT(1) NOT NULL' } }
-    dependencies: {  }
-XC-FacebookMarketing:
-    tables: {  }
-    columns: { products: { facebookMarketingEnabled: 'facebookMarketingEnabled TINYINT(1) DEFAULT ''1'' NOT NULL' } }
-    dependencies: {  }
-XC-FastLaneCheckout:
-    tables: {  }
-    columns: {  }
-    dependencies: {  }
-XC-FreeShipping:
-    tables: {  }
-    columns: { products: { freeShip: 'freeShip TINYINT(1) NOT NULL', shipForFree: 'shipForFree TINYINT(1) NOT NULL', freightFixedFee: 'freightFixedFee NUMERIC(14, 4) NOT NULL' }, shipping_methods: { free: 'free TINYINT(1) NOT NULL' } }
     dependencies: {  }
 XC-FroalaEditor:
     tables: {  }
@@ -128,12 +76,8 @@ XC-Geolocation:
     tables: {  }
     columns: {  }
     dependencies: {  }
-XC-GoogleFeed:
-    tables: {  }
-    columns: { attributes: { googleShoppingGroup: 'googleShoppingGroup VARCHAR(255) DEFAULT NULL' }, products: { googleFeedEnabled: 'googleFeedEnabled TINYINT(1) DEFAULT ''1'' NOT NULL' } }
-    dependencies: {  }
 XC-MailChimp:
-    tables: [mailchimp_list_group_name, mailchimp_profile_interests, mailchimp_store, mailchimp_list_segments, segment_membership, segment_products, mailchimp_segment_subscriptions, mailchimp_list_group, mailchimp_lists, mailchimp_subscriptions]
+    tables: [mailchimp_list_group, mailchimp_list_group_name, mailchimp_profile_interests, mailchimp_lists, mailchimp_subscriptions, mailchimp_list_segments, segment_membership, segment_products, mailchimp_segment_subscriptions, mailchimp_store]
     columns: { orders: { mailchimpStoreId: 'mailchimpStoreId VARCHAR(255) NOT NULL' }, products: { useAsSegmentCondition: 'useAsSegmentCondition TINYINT(1) NOT NULL' } }
     dependencies: {  }
 XC-News:
@@ -154,7 +98,7 @@ XC-NotFinishedOrders:
     dependencies: {  }
 XC-Onboarding:
     tables: {  }
-    columns: { orders: { demo: 'demo TINYINT(1) NOT NULL' }, categories: { demo: 'demo TINYINT(1) NOT NULL' }, products: { demo: 'demo TINYINT(1) NOT NULL' } }
+    columns: { categories: { demo: 'demo TINYINT(1) NOT NULL' }, orders: { demo: 'demo TINYINT(1) NOT NULL' }, products: { demo: 'demo TINYINT(1) NOT NULL' } }
     dependencies: {  }
 XC-ProductComparison:
     tables: {  }
@@ -165,7 +109,7 @@ XC-ProductFilter:
     columns: { attributes: { visible: 'visible TINYINT(1) DEFAULT ''1'' NOT NULL' }, categories: { useClasses: 'useClasses CHAR(1) NOT NULL' } }
     dependencies: {  }
 XC-ProductTags:
-    tables: [tag_translations, product_tags, tags]
+    tables: [product_tags, tags, tag_translations]
     columns: {  }
     dependencies: {  }
 XC-Qiwi:
@@ -177,7 +121,7 @@ XC-RESTAPI:
     columns: {  }
     dependencies: {  }
 XC-Reviews:
-    tables: [reviews, order_review_keys]
+    tables: [order_review_keys, reviews]
     columns: {  }
     dependencies: {  }
 XC-Robokassa:
@@ -205,7 +149,7 @@ XC-Upselling:
     columns: {  }
     dependencies: {  }
 XC-VendorMessages:
-    tables: [conversations, conversation_members, vendor_convo_message_reads, vendor_convo_messages]
+    tables: [conversations, conversation_members, vendor_convo_messages, vendor_convo_message_reads]
     columns: {  }
     dependencies: {  }
 XC-Webmoney:
@@ -214,5 +158,9 @@ XC-Webmoney:
     dependencies: {  }
 XC-YandexCheckout:
     tables: {  }
-    columns: { tax_classes: { yandexMoneyVATRate: 'yandexMoneyVATRate INT NOT NULL' }, products: { YMPaymentSubject: 'YMPaymentSubject VARCHAR(255) NOT NULL' } }
+    columns: { products: { YMPaymentSubject: 'YMPaymentSubject VARCHAR(255) NOT NULL' }, tax_classes: { yandexMoneyVATRate: 'yandexMoneyVATRate INT NOT NULL' } }
+    dependencies: {  }
+EA-ProductRecommendations:
+    tables: [product_recommendations]
+    columns: {  }
     dependencies: {  }

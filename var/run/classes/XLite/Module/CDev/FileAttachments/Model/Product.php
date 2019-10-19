@@ -13,7 +13,7 @@ use \XLite\Module\CDev\FileAttachments\Model\Product\Attachment;
 /**
  * Product 
  */
- class Product extends \XLite\Module\CDev\GoSocial\Model\Product implements \XLite\Base\IDecorator
+ class Product extends \XLite\Module\CDev\MarketPrice\Model\Product implements \XLite\Base\IDecorator
 {
     /**
      * Product attachments

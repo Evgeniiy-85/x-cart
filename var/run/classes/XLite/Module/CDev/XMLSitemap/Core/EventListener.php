@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\XMLSitemap\Core;
 /**
  * Event listener (common)
  */
- class EventListener extends \XLite\Module\XC\BulkEditing\Core\EventListener implements \XLite\Base\IDecorator
+ class EventListener extends \XLite\Module\XC\MailChimp\Core\EventListener implements \XLite\Base\IDecorator
 {
     /**
      * Get listeners

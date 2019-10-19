@@ -11,7 +11,7 @@ namespace XLite\Module\XC\CustomOrderStatuses\Model;
 /**
  * Class represents an order
  */
- class Order extends \XLite\Module\XC\CustomerAttachments\Model\Order implements \XLite\Base\IDecorator
+ class Order extends \XLite\Module\XC\MailChimp\Model\Order implements \XLite\Base\IDecorator
 {
     /**
      * Return base part of the certain "change status" handler name

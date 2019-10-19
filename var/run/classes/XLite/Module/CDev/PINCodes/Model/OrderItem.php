@@ -13,7 +13,7 @@ namespace XLite\Module\CDev\PINCodes\Model;
  *
  * @HasLifecycleCallbacks
  */
- class OrderItem extends \XLite\Module\XC\CustomerAttachments\Model\OrderItem implements \XLite\Base\IDecorator
+ class OrderItem extends \XLite\Model\OrderItemAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Pin codes (relation)

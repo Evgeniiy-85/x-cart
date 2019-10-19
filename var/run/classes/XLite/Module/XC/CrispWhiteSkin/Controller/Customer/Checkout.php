@@ -11,7 +11,7 @@ namespace XLite\Module\XC\CrispWhiteSkin\Controller\Customer;
 /**
  * Checkout
  */
- class Checkout extends \XLite\Module\XC\FastLaneCheckout\Controller\Customer\Checkout implements \XLite\Base\IDecorator
+ class Checkout extends \XLite\Module\XC\MailChimp\Controller\Customer\Checkout implements \XLite\Base\IDecorator
 {
     /**
      * Define the account links availability

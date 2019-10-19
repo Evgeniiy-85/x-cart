@@ -94,10 +94,10 @@ class Category extends \XLite\Model\Category implements \Doctrine\ORM\Proxy\Prox
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', 'coupons', 'featuredProducts', 'ogMeta', 'useCustomOG', 'csLastUpdate', 'demo', 'productClasses', 'useClasses', 'category_id', 'lpos', 'rpos', 'enabled', 'show_title', 'depth', 'pos', 'root_category_look', 'quickFlags', 'memberships', 'image', 'banner', 'categoryProducts', 'children', 'parent', 'flagVisible', 'cleanURLs', 'metaDescType', 'xcPendingExport', 'editLanguage', 'translations', '_previous_state'];
+            return ['__isInitialized__', 'featuredProducts', 'demo', 'productClasses', 'useClasses', 'category_id', 'lpos', 'rpos', 'enabled', 'show_title', 'depth', 'pos', 'root_category_look', 'quickFlags', 'memberships', 'image', 'banner', 'categoryProducts', 'children', 'parent', 'flagVisible', 'cleanURLs', 'metaDescType', 'xcPendingExport', 'editLanguage', 'translations', '_previous_state'];
         }
 
-        return ['__isInitialized__', 'coupons', 'featuredProducts', 'ogMeta', 'useCustomOG', 'csLastUpdate', 'demo', 'productClasses', 'useClasses', 'category_id', 'lpos', 'rpos', 'enabled', 'show_title', 'depth', 'pos', 'root_category_look', 'quickFlags', 'memberships', 'image', 'banner', 'categoryProducts', 'children', 'parent', 'flagVisible', 'cleanURLs', 'metaDescType', 'xcPendingExport', 'editLanguage', 'translations', '_previous_state'];
+        return ['__isInitialized__', 'featuredProducts', 'demo', 'productClasses', 'useClasses', 'category_id', 'lpos', 'rpos', 'enabled', 'show_title', 'depth', 'pos', 'root_category_look', 'quickFlags', 'memberships', 'image', 'banner', 'categoryProducts', 'children', 'parent', 'flagVisible', 'cleanURLs', 'metaDescType', 'xcPendingExport', 'editLanguage', 'translations', '_previous_state'];
     }
 
     /**
@@ -206,28 +206,6 @@ class Category extends \XLite\Model\Category implements \Doctrine\ORM\Proxy\Prox
     /**
      * {@inheritDoc}
      */
-    public function addCoupons(\XLite\Module\CDev\Coupons\Model\Coupon $coupons)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addCoupons', [$coupons]);
-
-        return parent::addCoupons($coupons);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCoupons()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCoupons', []);
-
-        return parent::getCoupons();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function getFeaturedProductsCount()
     {
 
@@ -256,94 +234,6 @@ class Category extends \XLite\Model\Category implements \Doctrine\ORM\Proxy\Prox
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getFeaturedProducts', []);
 
         return parent::getFeaturedProducts();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getOpenGraphMetaTags($preprocessed = true)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getOpenGraphMetaTags', [$preprocessed]);
-
-        return parent::getOpenGraphMetaTags($preprocessed);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setUseCustomOG($useCustomOG)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUseCustomOG', [$useCustomOG]);
-
-        return parent::setUseCustomOG($useCustomOG);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getUseCustomOG()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUseCustomOG', []);
-
-        return parent::getUseCustomOG();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEntityType()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityType', []);
-
-        return parent::getCloudSearchEntityType();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEntityIds()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityIds', []);
-
-        return parent::getCloudSearchEntityIds();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEventAction()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEventAction', []);
-
-        return parent::getCloudSearchEventAction();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCsLastUpdate()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCsLastUpdate', []);
-
-        return parent::getCsLastUpdate();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setCsLastUpdate($csLastUpdate)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setCsLastUpdate', [$csLastUpdate]);
-
-        return parent::setCsLastUpdate($csLastUpdate);
     }
 
     /**

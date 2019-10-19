@@ -3,4 +3,4 @@ namespace XLite\Core;
 /**
  * Database
  */
-class Database extends \XLite\Module\QSL\CloudSearch\Core\DatabaseDecorator {}
+class Database extends \XLite\Module\XC\ThemeTweaker\Core\Database {}

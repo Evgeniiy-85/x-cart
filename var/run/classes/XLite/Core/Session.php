@@ -3,4 +3,4 @@ namespace XLite\Core;
 /**
  * Current session
  */
-class Session extends \XLite\Module\CDev\GoSocial\Core\Session {}
+class Session extends \XLite\Module\CDev\Paypal\Core\Session {}

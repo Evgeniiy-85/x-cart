@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\FeaturedProducts\View\ItemsList\Model;
 /**
  * Categories items list
  */
- class Category extends \XLite\Module\XC\Concierge\View\ItemsList\Model\Category implements \XLite\Base\IDecorator
+ class Category extends \XLite\View\ItemsList\Model\CategoryAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Get a list of CSS files required to display the widget properly

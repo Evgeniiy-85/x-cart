@@ -94,10 +94,10 @@ class Profile extends \XLite\Model\Profile implements \Doctrine\ORM\Proxy\Proxy
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', 'gaClientId', 'socialLoginProvider', 'socialLoginId', 'conciergeUserId', 'mail_chimp_lists', 'mail_chimp_interests', 'mail_chimp_segments', 'conversations', 'profile_id', 'login', 'password', 'password_hint', 'password_hint_answer', 'passwordResetKey', 'passwordResetKeyDate', 'access_level', 'cms_profile_id', 'cms_name', 'added', 'first_login', 'last_login', 'status', 'statusComment', 'referer', 'order', 'event', 'language', 'last_shipping_id', 'last_payment_id', 'membership', 'pending_membership', 'addresses', 'roles', 'orders_count', 'anonymous', 'forceChangePassword', 'dateOfLoginAttempt', 'countOfLoginAttempts', 'searchFakeField', 'xcPendingExport', 'lastCheckoutEmail', '_previous_state'];
+            return ['__isInitialized__', 'socialLoginProvider', 'socialLoginId', 'mail_chimp_lists', 'mail_chimp_interests', 'mail_chimp_segments', 'conversations', 'profile_id', 'login', 'password', 'password_hint', 'password_hint_answer', 'passwordResetKey', 'passwordResetKeyDate', 'access_level', 'cms_profile_id', 'cms_name', 'added', 'first_login', 'last_login', 'status', 'statusComment', 'referer', 'order', 'event', 'language', 'last_shipping_id', 'last_payment_id', 'membership', 'pending_membership', 'addresses', 'roles', 'orders_count', 'anonymous', 'forceChangePassword', 'dateOfLoginAttempt', 'countOfLoginAttempts', 'searchFakeField', 'xcPendingExport', 'lastCheckoutEmail', '_previous_state'];
         }
 
-        return ['__isInitialized__', 'gaClientId', 'socialLoginProvider', 'socialLoginId', 'conciergeUserId', 'mail_chimp_lists', 'mail_chimp_interests', 'mail_chimp_segments', 'conversations', 'profile_id', 'login', 'password', 'password_hint', 'password_hint_answer', 'passwordResetKey', 'passwordResetKeyDate', 'access_level', 'cms_profile_id', 'cms_name', 'added', 'first_login', 'last_login', 'status', 'statusComment', 'referer', 'order', 'event', 'language', 'last_shipping_id', 'last_payment_id', 'membership', 'pending_membership', 'addresses', 'roles', 'orders_count', 'anonymous', 'forceChangePassword', 'dateOfLoginAttempt', 'countOfLoginAttempts', 'searchFakeField', 'xcPendingExport', 'lastCheckoutEmail', '_previous_state'];
+        return ['__isInitialized__', 'socialLoginProvider', 'socialLoginId', 'mail_chimp_lists', 'mail_chimp_interests', 'mail_chimp_segments', 'conversations', 'profile_id', 'login', 'password', 'password_hint', 'password_hint_answer', 'passwordResetKey', 'passwordResetKeyDate', 'access_level', 'cms_profile_id', 'cms_name', 'added', 'first_login', 'last_login', 'status', 'statusComment', 'referer', 'order', 'event', 'language', 'last_shipping_id', 'last_payment_id', 'membership', 'pending_membership', 'addresses', 'roles', 'orders_count', 'anonymous', 'forceChangePassword', 'dateOfLoginAttempt', 'countOfLoginAttempts', 'searchFakeField', 'xcPendingExport', 'lastCheckoutEmail', '_previous_state'];
     }
 
     /**
@@ -206,28 +206,6 @@ class Profile extends \XLite\Model\Profile implements \Doctrine\ORM\Proxy\Proxy
     /**
      * {@inheritDoc}
      */
-    public function getGaClientId()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getGaClientId', []);
-
-        return parent::getGaClientId();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setGaClientId($gaClientId)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setGaClientId', [$gaClientId]);
-
-        return parent::setGaClientId($gaClientId);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function isSocialProfile()
     {
 
@@ -278,28 +256,6 @@ class Profile extends \XLite\Model\Profile implements \Doctrine\ORM\Proxy\Proxy
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSocialLoginId', []);
 
         return parent::getSocialLoginId();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getConciergeUserId()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getConciergeUserId', []);
-
-        return parent::getConciergeUserId();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setConciergeUserId($conciergeUserId)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setConciergeUserId', [$conciergeUserId]);
-
-        return parent::setConciergeUserId($conciergeUserId);
     }
 
     /**

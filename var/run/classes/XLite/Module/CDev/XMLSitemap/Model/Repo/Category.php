@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\XMLSitemap\Model\Repo;
 /**
  * Category repository
  */
-abstract class Category extends \XLite\Module\QSL\CloudSearch\Model\Repo\Category implements \XLite\Base\IDecorator
+abstract class Category extends \XLite\Module\QSL\FlyoutCategoriesMenu\Model\Repo\Category implements \XLite\Base\IDecorator
 {
     /**
      * Define sitemap generation iterator query builder

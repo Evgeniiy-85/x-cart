@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\Paypal\View\Form\Product;
 /**
  * Place order form
  */
- class AddToCart extends \XLite\Module\XC\CustomerAttachments\View\Form\Product\AddToCart implements \XLite\Base\IDecorator
+ class AddToCart extends \XLite\View\Form\Product\AddToCartAbstract implements \XLite\Base\IDecorator
 {
     /**
      * getFormDefaultParams

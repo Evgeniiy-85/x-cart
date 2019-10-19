@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\Sale\Model\Repo;
 /**
  * The Product model repository extension
  */
- class Product extends \XLite\Module\XC\BulkEditing\Model\Repo\Product implements \XLite\Base\IDecorator
+ class Product extends \XLite\Module\CDev\XMLSitemap\Model\Repo\Product implements \XLite\Base\IDecorator
 {
     /**
      * Allowable search params

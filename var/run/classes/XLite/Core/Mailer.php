@@ -3,4 +3,4 @@ namespace XLite\Core;
 /**
  * Mailer core class
  */
-class Mailer extends \XLite\Module\CDev\ContactUs\Core\Mailer {}
+class Mailer extends \XLite\Module\XC\Reviews\Core\Mailer {}

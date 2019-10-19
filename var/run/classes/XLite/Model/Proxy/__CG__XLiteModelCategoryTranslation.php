@@ -94,10 +94,10 @@ class CategoryTranslation extends \XLite\Model\CategoryTranslation implements \D
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', 'ogMeta', 'name', 'description', 'metaTags', 'metaDesc', 'metaTitle', 'label_id', 'code', 'owner', '_previous_state'];
+            return ['__isInitialized__', 'name', 'description', 'metaTags', 'metaDesc', 'metaTitle', 'label_id', 'code', 'owner', '_previous_state'];
         }
 
-        return ['__isInitialized__', 'ogMeta', 'name', 'description', 'metaTags', 'metaDesc', 'metaTitle', 'label_id', 'code', 'owner', '_previous_state'];
+        return ['__isInitialized__', 'name', 'description', 'metaTags', 'metaDesc', 'metaTitle', 'label_id', 'code', 'owner', '_previous_state'];
     }
 
     /**
@@ -203,28 +203,6 @@ class CategoryTranslation extends \XLite\Model\CategoryTranslation implements \D
     }
 
     
-    /**
-     * {@inheritDoc}
-     */
-    public function getOgMeta()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getOgMeta', []);
-
-        return parent::getOgMeta();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setOgMeta($ogMeta)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setOgMeta', [$ogMeta]);
-
-        return parent::setOgMeta($ogMeta);
-    }
-
     /**
      * {@inheritDoc}
      */
@@ -366,39 +344,6 @@ class CategoryTranslation extends \XLite\Model\CategoryTranslation implements \D
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCode', []);
 
         return parent::getCode();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEntityType()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityType', []);
-
-        return parent::getCloudSearchEntityType();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEntityIds()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityIds', []);
-
-        return parent::getCloudSearchEntityIds();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEventAction()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEventAction', []);
-
-        return parent::getCloudSearchEventAction();
     }
 
     /**

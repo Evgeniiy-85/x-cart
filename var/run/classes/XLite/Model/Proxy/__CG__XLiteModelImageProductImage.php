@@ -206,39 +206,6 @@ class Image extends \XLite\Model\Image\Product\Image implements \Doctrine\ORM\Pr
     /**
      * {@inheritDoc}
      */
-    public function getCloudSearchEntityType()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityType', []);
-
-        return parent::getCloudSearchEntityType();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEntityIds()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityIds', []);
-
-        return parent::getCloudSearchEntityIds();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEventAction()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEventAction', []);
-
-        return parent::getCloudSearchEventAction();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function setOrderby($orderby)
     {
 
@@ -575,17 +542,6 @@ class Image extends \XLite\Model\Image\Product\Image implements \Doctrine\ORM\Pr
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getNeedProcess', []);
 
         return parent::getNeedProcess();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getGoogleFeedURL()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getGoogleFeedURL', []);
-
-        return parent::getGoogleFeedURL();
     }
 
     /**

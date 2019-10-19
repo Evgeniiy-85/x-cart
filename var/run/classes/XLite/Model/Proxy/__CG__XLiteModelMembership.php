@@ -94,10 +94,10 @@ class Membership extends \XLite\Model\Membership implements \Doctrine\ORM\Proxy\
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', 'coupons', 'membership_id', 'position', 'enabled', 'quickData', 'categories', 'products', 'editLanguage', 'translations', '_previous_state'];
+            return ['__isInitialized__', 'membership_id', 'position', 'enabled', 'quickData', 'categories', 'products', 'editLanguage', 'translations', '_previous_state'];
         }
 
-        return ['__isInitialized__', 'coupons', 'membership_id', 'position', 'enabled', 'quickData', 'categories', 'products', 'editLanguage', 'translations', '_previous_state'];
+        return ['__isInitialized__', 'membership_id', 'position', 'enabled', 'quickData', 'categories', 'products', 'editLanguage', 'translations', '_previous_state'];
     }
 
     /**
@@ -203,28 +203,6 @@ class Membership extends \XLite\Model\Membership implements \Doctrine\ORM\Proxy\
     }
 
     
-    /**
-     * {@inheritDoc}
-     */
-    public function addCoupons(\XLite\Module\CDev\Coupons\Model\Coupon $coupons)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addCoupons', [$coupons]);
-
-        return parent::addCoupons($coupons);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCoupons()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCoupons', []);
-
-        return parent::getCoupons();
-    }
-
     /**
      * {@inheritDoc}
      */

@@ -14,7 +14,7 @@ use Includes\Utils\Module\Module;
 /**
  * Settings dialog model widget
  */
-abstract class Settings extends \XLite\Module\QSL\CloudSearch\View\Model\Settings implements \XLite\Base\IDecorator
+abstract class Settings extends \XLite\Module\XC\NotFinishedOrders\View\Model\Settings implements \XLite\Base\IDecorator
 {
     /**
      * Logo & Favicon fields

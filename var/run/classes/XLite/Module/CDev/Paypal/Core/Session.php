@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\Paypal\Core;
 /**
  * Session
  */
- class Session extends \XLite\Module\XC\Concierge\Core\Session implements \XLite\Base\IDecorator
+ class Session extends \XLite\Core\SessionAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Restore session ID from USER1 parameter of the PayPal response

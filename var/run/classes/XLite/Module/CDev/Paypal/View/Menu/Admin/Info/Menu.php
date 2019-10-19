@@ -9,7 +9,7 @@
 namespace XLite\Module\CDev\Paypal\View\Menu\Admin\Info;
 
 
- class Menu extends \XLite\Module\QSL\CloudSearch\View\Menu\Admin\Info\Menu implements \XLite\Base\IDecorator
+ class Menu extends \XLite\Module\XC\Reviews\View\Menu\Admin\Info\Menu implements \XLite\Base\IDecorator
 {
     /**
      * @inheritdoc

@@ -9,4 +9,4 @@ namespace XLite\Model\Repo;
  * @Api\Operation\Update(modelClass="XLite\Model\Category", summary="Update category by id")
  * @Api\Operation\Delete(modelClass="XLite\Model\Category", summary="Delete category by id")
  */
-class Category extends \XLite\Module\CDev\GoSocial\Model\Repo\Category {}
+class Category extends \XLite\Module\CDev\XMLSitemap\Model\Repo\Category {}

@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\Paypal\Controller\Customer;
 /**
  * Checkout controller
  */
- class Cart extends \XLite\Module\XC\CustomerAttachments\Controller\Customer\Cart implements \XLite\Base\IDecorator
+ class Cart extends \XLite\Controller\Customer\CartAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Product status in cart

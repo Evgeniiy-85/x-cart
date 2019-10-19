@@ -18,4 +18,4 @@ namespace XLite\Model;
  * )
  * @HasLifecycleCallbacks
  */
-class Profile extends \XLite\Module\CDev\GoogleAnalytics\Model\Profile {}
+class Profile extends \XLite\Module\CDev\Paypal\Model\Profile {}

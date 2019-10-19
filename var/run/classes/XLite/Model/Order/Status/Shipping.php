@@ -10,4 +10,4 @@ namespace XLite\Model\Order\Status;
  *      }
  * )
  */
-class Shipping extends \XLite\Module\CDev\Egoods\Model\Order\Status\Shipping {}
+class Shipping extends \XLite\Module\CDev\PINCodes\Model\Order\Status\Shipping {}

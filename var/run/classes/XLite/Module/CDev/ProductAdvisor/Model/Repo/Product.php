@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\ProductAdvisor\Model\Repo;
 /**
  * The Product model repository extension
  */
- class Product extends \XLite\Module\QSL\CloudSearch\Model\Repo\ProductSale implements \XLite\Base\IDecorator
+ class Product extends \XLite\Module\CDev\Sale\Model\Repo\Product implements \XLite\Base\IDecorator
 {
     /**
      * Allowable search params

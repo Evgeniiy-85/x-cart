@@ -12,7 +12,7 @@ use XLite\Model\Payment\BackendTransaction;
 /**
  * Extend Order details page widget
  */
- class OrderInfo extends \XLite\Module\XC\CustomerAttachments\View\Order\Details\Admin\Info implements \XLite\Base\IDecorator
+ class OrderInfo extends \XLite\View\Order\Details\Admin\InfoAbstract implements \XLite\Base\IDecorator
 {
     /**
      * getCSSFiles 

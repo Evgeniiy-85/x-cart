@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\ProductAdvisor\View\ItemsList\Product\Customer;
 /**
  * Products items list extension
  */
-abstract class ACustomer extends \XLite\Module\QSL\CloudSearch\View\ItemsList\Product\Customer\ACustomerNextPrevious implements \XLite\Base\IDecorator
+abstract class ACustomer extends \XLite\Module\XC\NextPreviousProduct\View\ItemList\Product\Customer\ACustomer implements \XLite\Base\IDecorator
 {
     /**
      * Allowed sort criteria

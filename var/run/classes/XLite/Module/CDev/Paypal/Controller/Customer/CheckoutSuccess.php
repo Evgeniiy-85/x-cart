@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\Paypal\Controller\Customer;
 /**
  * Checkout controller
  */
- class CheckoutSuccess extends \XLite\Module\XC\FacebookMarketing\Controller\Customer\CheckoutSuccess implements \XLite\Base\IDecorator
+ class CheckoutSuccess extends \XLite\Controller\Customer\CheckoutSuccessAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Handles the request.

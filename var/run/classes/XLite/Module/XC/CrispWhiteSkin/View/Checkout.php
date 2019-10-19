@@ -11,7 +11,7 @@ namespace XLite\Module\XC\CrispWhiteSkin\View;
 /**
  * Authorization
  */
- class Checkout extends \XLite\Module\XC\FastLaneCheckout\View\Checkout implements \XLite\Base\IDecorator
+ class Checkout extends \XLite\View\CheckoutAbstract implements \XLite\Base\IDecorator
 {
     public function getCSSFiles()
     {

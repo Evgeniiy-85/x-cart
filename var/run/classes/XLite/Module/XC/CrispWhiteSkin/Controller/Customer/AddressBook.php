@@ -8,7 +8,7 @@
 
 namespace XLite\Module\XC\CrispWhiteSkin\Controller\Customer;
 
- class AddressBook extends \XLite\Module\XC\FastLaneCheckout\Controller\Customer\AddressBook implements \XLite\Base\IDecorator
+ class AddressBook extends \XLite\Controller\Customer\AddressBookAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Return the current page title (for the content area)

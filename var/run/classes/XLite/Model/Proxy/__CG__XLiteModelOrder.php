@@ -94,10 +94,10 @@ class Order extends \XLite\Model\Order implements \Doctrine\ORM\Proxy\Proxy
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', 'usedCoupons', 'mailchimpStoreId', 'not_finished_order', 'demo', 'reviewKey', 'conversation', 'order_id', 'profile', 'orig_profile', 'shipping_id', 'shipping_method_name', 'payment_method_name', 'tracking', 'date', 'lastRenewDate', 'paymentStatus', 'shippingStatus', 'notes', 'adminNotes', 'details', 'trackingNumbers', 'events', 'items', 'surcharges', 'payment_transactions', 'currency', 'orderNumber', 'recent', 'addItemError', 'oldPaymentStatus', 'isRemoving', 'oldShippingStatus', 'modifiers', 'shippingProcessor', 'isNotificationSent', 'ignoreCustomerNotifications', 'isNotificationsAllowedFlag', 'statusIsSet', 'paymentTransactionSums', 'sourceAddress', 'xcPendingExport', 'backorderCompetitors', 'backorderProductAmounts', 'temporary', 'total', 'subtotal', '_previous_state'];
+            return ['__isInitialized__', 'mailchimpStoreId', 'not_finished_order', 'demo', 'reviewKey', 'conversation', 'order_id', 'profile', 'orig_profile', 'shipping_id', 'shipping_method_name', 'payment_method_name', 'tracking', 'date', 'lastRenewDate', 'paymentStatus', 'shippingStatus', 'notes', 'adminNotes', 'details', 'trackingNumbers', 'events', 'items', 'surcharges', 'payment_transactions', 'currency', 'orderNumber', 'recent', 'addItemError', 'oldPaymentStatus', 'isRemoving', 'oldShippingStatus', 'modifiers', 'shippingProcessor', 'isNotificationSent', 'ignoreCustomerNotifications', 'isNotificationsAllowedFlag', 'statusIsSet', 'paymentTransactionSums', 'sourceAddress', 'xcPendingExport', 'backorderCompetitors', 'backorderProductAmounts', 'temporary', 'total', 'subtotal', '_previous_state'];
         }
 
-        return ['__isInitialized__', 'usedCoupons', 'mailchimpStoreId', 'not_finished_order', 'demo', 'reviewKey', 'conversation', 'order_id', 'profile', 'orig_profile', 'shipping_id', 'shipping_method_name', 'payment_method_name', 'tracking', 'date', 'lastRenewDate', 'paymentStatus', 'shippingStatus', 'notes', 'adminNotes', 'details', 'trackingNumbers', 'events', 'items', 'surcharges', 'payment_transactions', 'currency', 'orderNumber', 'recent', 'addItemError', 'oldPaymentStatus', 'isRemoving', 'oldShippingStatus', 'modifiers', 'shippingProcessor', 'isNotificationSent', 'ignoreCustomerNotifications', 'isNotificationsAllowedFlag', 'statusIsSet', 'paymentTransactionSums', 'sourceAddress', 'xcPendingExport', 'backorderCompetitors', 'backorderProductAmounts', 'temporary', 'total', 'subtotal', '_previous_state'];
+        return ['__isInitialized__', 'mailchimpStoreId', 'not_finished_order', 'demo', 'reviewKey', 'conversation', 'order_id', 'profile', 'orig_profile', 'shipping_id', 'shipping_method_name', 'payment_method_name', 'tracking', 'date', 'lastRenewDate', 'paymentStatus', 'shippingStatus', 'notes', 'adminNotes', 'details', 'trackingNumbers', 'events', 'items', 'surcharges', 'payment_transactions', 'currency', 'orderNumber', 'recent', 'addItemError', 'oldPaymentStatus', 'isRemoving', 'oldShippingStatus', 'modifiers', 'shippingProcessor', 'isNotificationSent', 'ignoreCustomerNotifications', 'isNotificationsAllowedFlag', 'statusIsSet', 'paymentTransactionSums', 'sourceAddress', 'xcPendingExport', 'backorderCompetitors', 'backorderProductAmounts', 'temporary', 'total', 'subtotal', '_previous_state'];
     }
 
     /**
@@ -206,150 +206,6 @@ class Order extends \XLite\Model\Order implements \Doctrine\ORM\Proxy\Proxy
     /**
      * {@inheritDoc}
      */
-    public function cloneEntity()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'cloneEntity', []);
-
-        return parent::cloneEntity();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function addCoupon(\XLite\Module\CDev\Coupons\Model\Coupon $coupon)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addCoupon', [$coupon]);
-
-        return parent::addCoupon($coupon);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function removeUsedCoupon(\XLite\Module\CDev\Coupons\Model\UsedCoupon $usedCoupon)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'removeUsedCoupon', [$usedCoupon]);
-
-        return parent::removeUsedCoupon($usedCoupon);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function containsCoupon(\XLite\Module\CDev\Coupons\Model\Coupon $coupon)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'containsCoupon', [$coupon]);
-
-        return parent::containsCoupon($coupon);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function hasSingleUseCoupon()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasSingleUseCoupon', []);
-
-        return parent::hasSingleUseCoupon();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function processSucceed()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'processSucceed', []);
-
-        return parent::processSucceed();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function addUsedCoupons(\XLite\Module\CDev\Coupons\Model\UsedCoupon $usedCoupons)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addUsedCoupons', [$usedCoupons]);
-
-        return parent::addUsedCoupons($usedCoupons);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getUsedCoupons()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUsedCoupons', []);
-
-        return parent::getUsedCoupons();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getValidItemsByCoupon(\XLite\Module\CDev\Coupons\Model\Coupon $coupon)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getValidItemsByCoupon', [$coupon]);
-
-        return parent::getValidItemsByCoupon($coupon);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getPrivateAttachments()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getPrivateAttachments', []);
-
-        return parent::getPrivateAttachments();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getDownloadAttachments($availableOnly = true)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getDownloadAttachments', [$availableOnly]);
-
-        return parent::getDownloadAttachments($availableOnly);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function addItem(\XLite\Model\OrderItem $newItem)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addItem', [$newItem]);
-
-        return parent::addItem($newItem);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getEventFingerprint(array $exclude = array (
-))
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getEventFingerprint', [$exclude]);
-
-        return parent::getEventFingerprint($exclude);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function hasPinCodes()
     {
 
@@ -389,6 +245,17 @@ class Order extends \XLite\Model\Order implements \Doctrine\ORM\Proxy\Proxy
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'processPINCodes', []);
 
         return parent::processPINCodes();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function processSucceed()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'processSucceed', []);
+
+        return parent::processSucceed();
     }
 
     /**
@@ -768,6 +635,17 @@ class Order extends \XLite\Model\Order implements \Doctrine\ORM\Proxy\Proxy
     /**
      * {@inheritDoc}
      */
+    public function addItem(\XLite\Model\OrderItem $newItem)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addItem', [$newItem]);
+
+        return parent::addItem($newItem);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
     public function getAddItemError()
     {
 
@@ -977,6 +855,17 @@ class Order extends \XLite\Model\Order implements \Doctrine\ORM\Proxy\Proxy
     /**
      * {@inheritDoc}
      */
+    public function cloneEntity()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'cloneEntity', []);
+
+        return parent::cloneEntity();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
     public function getShippingMethodName()
     {
 
@@ -1071,6 +960,18 @@ class Order extends \XLite\Model\Order implements \Doctrine\ORM\Proxy\Proxy
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getDescription', []);
 
         return parent::getDescription();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getEventFingerprint(array $exclude = array (
+))
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getEventFingerprint', [$exclude]);
+
+        return parent::getEventFingerprint($exclude);
     }
 
     /**

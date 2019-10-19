@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\SimpleCMS\View;
 /**
  * Logo
  */
-abstract class AView extends \XLite\Module\QSL\CloudSearch\View\AView implements \XLite\Base\IDecorator
+abstract class AView extends \XLite\Module\QSL\FlyoutCategoriesMenu\View\AView implements \XLite\Base\IDecorator
 {
     /**
      * Return theme common files

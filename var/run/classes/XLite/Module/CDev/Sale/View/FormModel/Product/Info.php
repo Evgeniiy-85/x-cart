@@ -8,7 +8,7 @@
 
 namespace XLite\Module\CDev\Sale\View\FormModel\Product;
 
- class Info extends \XLite\Module\XC\CustomerAttachments\View\FormModel\Product\Info implements \XLite\Base\IDecorator
+ class Info extends \XLite\Module\XC\Onboarding\View\FormModel\Product\Info implements \XLite\Base\IDecorator
 {
     /**
      * @return array

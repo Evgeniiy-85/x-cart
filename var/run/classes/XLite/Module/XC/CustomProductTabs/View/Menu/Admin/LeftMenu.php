@@ -11,7 +11,7 @@ namespace XLite\Module\XC\CustomProductTabs\View\Menu\Admin;
 /**
  * Left menu widget
  */
- class LeftMenu extends \XLite\Module\XC\FacebookMarketing\View\Menu\Admin\LeftMenu implements \XLite\Base\IDecorator
+ class LeftMenu extends \XLite\Module\XC\MailChimp\View\Menu\Admin\LeftMenu implements \XLite\Base\IDecorator
 {
     /**
      * Define items

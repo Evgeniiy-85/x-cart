@@ -94,10 +94,10 @@ class Attachment extends \XLite\Module\CDev\FileAttachments\Model\Product\Attach
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', 'private', 'oldScope', 'history', 'id', 'orderby', 'product', 'storage', 'access', 'editLanguage', 'translations', '_previous_state'];
+            return ['__isInitialized__', 'id', 'orderby', 'product', 'storage', 'access', 'editLanguage', 'translations', '_previous_state'];
         }
 
-        return ['__isInitialized__', 'private', 'oldScope', 'history', 'id', 'orderby', 'product', 'storage', 'access', 'editLanguage', 'translations', '_previous_state'];
+        return ['__isInitialized__', 'id', 'orderby', 'product', 'storage', 'access', 'editLanguage', 'translations', '_previous_state'];
     }
 
     /**
@@ -203,105 +203,6 @@ class Attachment extends \XLite\Module\CDev\FileAttachments\Model\Product\Attach
     }
 
     
-    /**
-     * {@inheritDoc}
-     */
-    public function getPrivate()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getPrivate', []);
-
-        return parent::getPrivate();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setPrivate($private)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setPrivate', [$private]);
-
-        return parent::setPrivate($private);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function canBePrivate()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'canBePrivate', []);
-
-        return parent::canBePrivate();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setDuplicatePrivate($private, \XLite\Module\CDev\FileAttachments\Model\Product\Attachment\Storage $storage)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setDuplicatePrivate', [$private, $storage]);
-
-        return parent::setDuplicatePrivate($private, $storage);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function prepareChangeScope()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'prepareChangeScope', []);
-
-        return parent::prepareChangeScope();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function synchronizePrivateState()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'synchronizePrivateState', []);
-
-        return parent::synchronizePrivateState();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getHistory()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getHistory', []);
-
-        return parent::getHistory();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function addHistoryPoint($attachmentHistoryPoint)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addHistoryPoint', [$attachmentHistoryPoint]);
-
-        return parent::addHistoryPoint($attachmentHistoryPoint);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getIconType()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getIconType', []);
-
-        return parent::getIconType();
-    }
-
     /**
      * {@inheritDoc}
      */
@@ -436,6 +337,17 @@ class Attachment extends \XLite\Module\CDev\FileAttachments\Model\Product\Attach
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'setAccess', [$access]);
 
         return parent::setAccess($access);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getIconType()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getIconType', []);
+
+        return parent::getIconType();
     }
 
     /**

@@ -5,4 +5,4 @@ namespace XLite\View;
  *
  * @ListChild (list="center")
  */
-class Checkout extends \XLite\Module\CDev\Coupons\View\Checkout {}
+class Checkout extends \XLite\Module\CDev\Paypal\View\Checkout {}

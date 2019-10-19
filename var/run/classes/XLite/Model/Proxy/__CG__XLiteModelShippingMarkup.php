@@ -206,17 +206,6 @@ class Markup extends \XLite\Model\Shipping\Markup implements \Doctrine\ORM\Proxy
     /**
      * {@inheritDoc}
      */
-    public function hasRates()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasRates', []);
-
-        return parent::hasRates();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function getMarkupValue()
     {
 
@@ -234,6 +223,17 @@ class Markup extends \XLite\Model\Shipping\Markup implements \Doctrine\ORM\Proxy
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'setMarkupValue', [$value]);
 
         return parent::setMarkupValue($value);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function hasRates()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasRates', []);
+
+        return parent::hasRates();
     }
 
     /**

@@ -11,7 +11,7 @@ namespace XLite\Module\XC\CrispWhiteSkin\View;
 /**
  * Cart widget
  */
-abstract class Cart extends \XLite\Module\XC\FreeShipping\View\Cart implements \XLite\Base\IDecorator
+abstract class Cart extends \XLite\View\CartAbstract implements \XLite\Base\IDecorator
 {
     /**
      * @return array

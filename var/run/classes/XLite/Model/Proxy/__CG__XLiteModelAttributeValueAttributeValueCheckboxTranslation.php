@@ -239,39 +239,6 @@ class AttributeValueCheckboxTranslation extends \XLite\Model\AttributeValue\Attr
     /**
      * {@inheritDoc}
      */
-    public function getCloudSearchEntityType()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityType', []);
-
-        return parent::getCloudSearchEntityType();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEntityIds()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityIds', []);
-
-        return parent::getCloudSearchEntityIds();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEventAction()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEventAction', []);
-
-        return parent::getCloudSearchEventAction();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function getOwner()
     {
 

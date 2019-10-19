@@ -9,4 +9,4 @@ namespace XLite\Model\Repo;
  * @Api\Operation\Update(modelClass="XLite\Model\Attribute", summary="Update product attribute by id")
  * @Api\Operation\Delete(modelClass="XLite\Model\Attribute", summary="Delete product attribute by id")
  */
-class Attribute extends \XLite\Module\XC\GoogleFeed\Model\Repo\Attribute {}
+class Attribute extends \XLite\Module\XC\ProductFilter\Model\Repo\Attribute {}

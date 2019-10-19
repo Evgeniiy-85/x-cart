@@ -206,127 +206,6 @@ class Storage extends \XLite\Module\CDev\FileAttachments\Model\Product\Attachmen
     /**
      * {@inheritDoc}
      */
-    public function getURL()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getURL', []);
-
-        return parent::getURL();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getFrontURL()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getFrontURL', []);
-
-        return parent::getFrontURL();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getExtension()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getExtension', []);
-
-        return parent::getExtension();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getDownloadURL(\XLite\Module\CDev\Egoods\Model\OrderItem\PrivateAttachment $attachment)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getDownloadURL', [$attachment]);
-
-        return parent::getDownloadURL($attachment);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function maskStorage()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'maskStorage', []);
-
-        return parent::maskStorage();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function unmaskStorage()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'unmaskStorage', []);
-
-        return parent::unmaskStorage();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function isPrivatePath($path = NULL)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isPrivatePath', [$path]);
-
-        return parent::isPrivatePath($path);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function canBeSigned()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'canBeSigned', []);
-
-        return parent::canBeSigned();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getSignedUrl()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSignedUrl', []);
-
-        return parent::getSignedUrl();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function isFileExists($path = NULL, $forceFile = false)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isFileExists', [$path, $forceFile]);
-
-        return parent::isFileExists($path, $forceFile);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function loadFromURL($url, $copy2fs = false)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'loadFromURL', [$url, $copy2fs]);
-
-        return parent::loadFromURL($url, $copy2fs);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function cloneEntityForAttachment(\XLite\Module\CDev\FileAttachments\Model\Product\Attachment $attachment)
     {
 
@@ -399,17 +278,6 @@ class Storage extends \XLite\Module\CDev\FileAttachments\Model\Product\Attachmen
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getAttachment', []);
 
         return parent::getAttachment();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getGoogleFeedURL()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getGoogleFeedURL', []);
-
-        return parent::getGoogleFeedURL();
     }
 
     /**
@@ -551,6 +419,39 @@ class Storage extends \XLite\Module\CDev\FileAttachments\Model\Product\Attachmen
     /**
      * {@inheritDoc}
      */
+    public function isFileExists($path = NULL, $forceFile = false)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isFileExists', [$path, $forceFile]);
+
+        return parent::isFileExists($path, $forceFile);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getURL()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getURL', []);
+
+        return parent::getURL();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getFrontURL()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getFrontURL', []);
+
+        return parent::getFrontURL();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
     public function getGetterURL()
     {
 
@@ -568,6 +469,17 @@ class Storage extends \XLite\Module\CDev\FileAttachments\Model\Product\Attachmen
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getAdminGetterURL', []);
 
         return parent::getAdminGetterURL();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getExtension()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getExtension', []);
+
+        return parent::getExtension();
     }
 
     /**
@@ -667,6 +579,17 @@ class Storage extends \XLite\Module\CDev\FileAttachments\Model\Product\Attachmen
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'loadFromLocalFile', [$path, $basename, $makeUnique]);
 
         return parent::loadFromLocalFile($path, $basename, $makeUnique);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function loadFromURL($url, $copy2fs = false)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'loadFromURL', [$url, $copy2fs]);
+
+        return parent::loadFromURL($url, $copy2fs);
     }
 
     /**

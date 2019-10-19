@@ -8,7 +8,7 @@
 
 namespace XLite\Module\XC\CrispWhiteSkin\View;
 
-abstract class CommonResources extends \XLite\Module\XC\FastLaneCheckout\View\CommonResources implements \XLite\Base\IDecorator
+abstract class CommonResources extends \XLite\Module\XC\ThemeTweaker\View\CommonResources implements \XLite\Base\IDecorator
 {
     protected function getThemeFiles($adminZone = null)
     {

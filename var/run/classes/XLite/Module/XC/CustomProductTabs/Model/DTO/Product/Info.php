@@ -9,7 +9,7 @@
 namespace XLite\Module\XC\CustomProductTabs\Model\DTO\Product;
 
 
- class Info extends \XLite\Module\XC\CustomerAttachments\Model\DTO\Product\Info implements \XLite\Base\IDecorator
+ class Info extends \XLite\Module\XC\Onboarding\Model\DTO\Product\Info implements \XLite\Base\IDecorator
 {
     /**
      * @inheritdoc

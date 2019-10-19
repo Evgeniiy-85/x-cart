@@ -11,7 +11,7 @@ namespace XLite\Module\QSL\FlyoutCategoriesMenu\Model\Repo;
 /**
  * Category repository
  */
-abstract class Category extends \XLite\Module\XC\GoogleFeed\Model\Repo\Category implements \XLite\Base\IDecorator
+abstract class Category extends \XLite\Module\XC\Onboarding\Model\Repo\Category implements \XLite\Base\IDecorator
 {
     /**
      * Check if display number of prducts

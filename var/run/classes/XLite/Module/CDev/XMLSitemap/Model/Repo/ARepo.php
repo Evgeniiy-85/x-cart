@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\XMLSitemap\Model\Repo;
 /**
  * Abstract repository
  */
- class ARepo extends \XLite\Module\XC\GoogleFeed\Model\Repo\ARepo implements \XLite\Base\IDecorator
+ class ARepo extends \XLite\Module\XC\RESTAPI\Model\Repo\ARepo implements \XLite\Base\IDecorator
 {
     /**
      * Define items iterator

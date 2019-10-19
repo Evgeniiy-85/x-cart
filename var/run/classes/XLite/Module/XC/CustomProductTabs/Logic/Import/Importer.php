@@ -11,7 +11,7 @@ namespace XLite\Module\XC\CustomProductTabs\Logic\Import;
 /**
  * Importer
  */
- class Importer extends \XLite\Module\XC\FreeShipping\Logic\Import\Importer implements \XLite\Base\IDecorator
+ class Importer extends \XLite\Module\XC\NewsletterSubscriptions\Logic\Import\Importer implements \XLite\Base\IDecorator
 {
     /**
      * Get processor list

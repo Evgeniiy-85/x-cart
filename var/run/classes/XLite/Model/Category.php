@@ -12,4 +12,4 @@ namespace XLite\Model;
  *      }
  * )
  */
-class Category extends \XLite\Module\CDev\Coupons\Model\Category {}
+class Category extends \XLite\Module\CDev\FeaturedProducts\Model\Category {}

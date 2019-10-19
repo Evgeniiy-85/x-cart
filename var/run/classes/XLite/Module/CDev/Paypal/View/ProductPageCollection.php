@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\Paypal\View;
 /**
  * Product page widgets collection
  */
- class ProductPageCollection extends \XLite\Module\XC\FacebookMarketing\View\ProductPageCollection implements \XLite\Base\IDecorator
+ class ProductPageCollection extends \XLite\View\ProductPageCollectionAbstract implements \XLite\Base\IDecorator
 {
     /**
      * Register the view classes collection

@@ -11,7 +11,7 @@ namespace XLite\Module\XC\CrispWhiteSkin\Controller\Customer;
 use XLite\Core\Auth;
 use XLite\Module\XC\CrispWhiteSkin;
 
- class ACustomer extends \XLite\Module\XC\CustomerAttachments\Controller\Customer\ACustomer implements \XLite\Base\IDecorator
+ class ACustomer extends \XLite\Module\XC\Reviews\Controller\Customer\ACustomer implements \XLite\Base\IDecorator
 {
     /**
      * Get current selected country if available

@@ -525,17 +525,6 @@ class Banner extends \XLite\Model\Image\Category\Banner implements \Doctrine\ORM
     /**
      * {@inheritDoc}
      */
-    public function getGoogleFeedURL()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getGoogleFeedURL', []);
-
-        return parent::getGoogleFeedURL();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function getId()
     {
         if ($this->__isInitialized__ === false) {

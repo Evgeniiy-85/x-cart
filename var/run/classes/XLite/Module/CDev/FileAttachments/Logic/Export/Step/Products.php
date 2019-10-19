@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\FileAttachments\Logic\Export\Step;
 /**
  * Products
  */
-abstract class Products extends \XLite\Module\CDev\GoSocial\Logic\Export\Step\Products implements \XLite\Base\IDecorator
+abstract class Products extends \XLite\Module\CDev\MarketPrice\Logic\Export\Step\Products implements \XLite\Base\IDecorator
 {
     /**
      * Define columns

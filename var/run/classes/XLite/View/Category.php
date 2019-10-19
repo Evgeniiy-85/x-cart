@@ -5,4 +5,4 @@ namespace XLite\View;
  *
  * @ListChild (list="center", zone="customer")
  */
-class Category extends \XLite\Module\CDev\GoSocial\View\Category {}
+class Category extends \XLite\Module\XC\ThemeTweaker\View\Category {}

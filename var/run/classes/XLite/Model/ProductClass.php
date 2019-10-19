@@ -6,4 +6,4 @@ namespace XLite\Model;
  * @Entity
  * @Table  (name="product_classes")
  */
-class ProductClass extends \XLite\Module\CDev\Coupons\Model\ProductClass {}
+class ProductClass extends \XLite\Module\XC\ProductFilter\Model\ProductClass {}

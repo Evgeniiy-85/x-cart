@@ -15,7 +15,7 @@ use XLite\Core\Request;
  * Product modify
  *
  */
- class Product extends \XLite\Module\XC\Concierge\Controller\Admin\Product implements \XLite\Base\IDecorator
+ class Product extends \XLite\Module\EA\ProductRecommendations\Controller\Admin\Product implements \XLite\Base\IDecorator
 {
     /**
      * Update pin codes action handler

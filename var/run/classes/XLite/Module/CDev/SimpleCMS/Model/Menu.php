@@ -11,4 +11,4 @@ namespace XLite\Module\CDev\SimpleCMS\Model;
  *      }
  * )
  */
-class Menu extends \XLite\Module\CDev\Bestsellers\Model\Menu {}
+class Menu extends \XLite\Module\CDev\PINCodes\Model\Menu {}

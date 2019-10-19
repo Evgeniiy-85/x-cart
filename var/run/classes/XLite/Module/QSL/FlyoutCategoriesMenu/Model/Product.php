@@ -11,7 +11,7 @@ namespace XLite\Module\QSL\FlyoutCategoriesMenu\Model;
 /**
  * Category repository
  */
-abstract class Product extends \XLite\Module\XC\BulkEditing\Model\Product implements \XLite\Base\IDecorator
+abstract class Product extends \XLite\Module\XC\CustomProductTabs\Model\Product implements \XLite\Base\IDecorator
 {
     /**
      * @param integer $delta

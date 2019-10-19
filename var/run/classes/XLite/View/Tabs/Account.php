@@ -5,4 +5,4 @@ namespace XLite\View\Tabs;
  *
  * @ListChild (list="center")
  */
-class Account extends \XLite\Module\CDev\Egoods\View\Tabs\Account {}
+class Account extends \XLite\Module\CDev\PINCodes\View\Tabs\Account {}

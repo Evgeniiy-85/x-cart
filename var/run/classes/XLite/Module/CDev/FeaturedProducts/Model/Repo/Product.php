@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\FeaturedProducts\Model\Repo;
 /**
  * Featured Product repository
  */
- class Product extends \XLite\Module\CDev\GoSocial\Model\Repo\Product implements \XLite\Base\IDecorator
+ class Product extends \XLite\Module\CDev\ProductAdvisor\Model\Repo\Product implements \XLite\Base\IDecorator
 {
     // {{{ Search
 

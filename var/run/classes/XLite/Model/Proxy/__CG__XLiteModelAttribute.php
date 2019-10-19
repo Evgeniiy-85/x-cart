@@ -94,10 +94,10 @@ class Attribute extends \XLite\Model\Attribute implements \Doctrine\ORM\Proxy\Pr
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', 'googleShoppingGroup', 'visible', 'id', 'position', 'decimals', 'productClass', 'attributeGroup', 'attribute_options', 'product', 'type', 'addToNew', 'attribute_properties', 'editLanguage', 'translations', '_previous_state'];
+            return ['__isInitialized__', 'visible', 'id', 'position', 'decimals', 'productClass', 'attributeGroup', 'attribute_options', 'product', 'type', 'addToNew', 'attribute_properties', 'editLanguage', 'translations', '_previous_state'];
         }
 
-        return ['__isInitialized__', 'googleShoppingGroup', 'visible', 'id', 'position', 'decimals', 'productClass', 'attributeGroup', 'attribute_options', 'product', 'type', 'addToNew', 'attribute_properties', 'editLanguage', 'translations', '_previous_state'];
+        return ['__isInitialized__', 'visible', 'id', 'position', 'decimals', 'productClass', 'attributeGroup', 'attribute_options', 'product', 'type', 'addToNew', 'attribute_properties', 'editLanguage', 'translations', '_previous_state'];
     }
 
     /**
@@ -203,61 +203,6 @@ class Attribute extends \XLite\Model\Attribute implements \Doctrine\ORM\Proxy\Pr
     }
 
     
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEntityType()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityType', []);
-
-        return parent::getCloudSearchEntityType();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEntityIds()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityIds', []);
-
-        return parent::getCloudSearchEntityIds();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEventAction()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEventAction', []);
-
-        return parent::getCloudSearchEventAction();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getGoogleShoppingGroup()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getGoogleShoppingGroup', []);
-
-        return parent::getGoogleShoppingGroup();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setGoogleShoppingGroup($key)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setGoogleShoppingGroup', [$key]);
-
-        return parent::setGoogleShoppingGroup($key);
-    }
-
     /**
      * {@inheritDoc}
      */

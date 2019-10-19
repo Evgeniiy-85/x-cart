@@ -94,10 +94,10 @@ class Page extends \XLite\Module\CDev\SimpleCMS\Model\Page implements \Doctrine\
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', 'useCustomOG', 'ogMeta', 'showSocialButtons', 'id', 'enabled', 'image', 'cleanURLs', 'metaDescType', 'position', 'editLanguage', 'translations', '_previous_state'];
+            return ['__isInitialized__', 'id', 'enabled', 'image', 'cleanURLs', 'metaDescType', 'position', 'editLanguage', 'translations', '_previous_state'];
         }
 
-        return ['__isInitialized__', 'useCustomOG', 'ogMeta', 'showSocialButtons', 'id', 'enabled', 'image', 'cleanURLs', 'metaDescType', 'position', 'editLanguage', 'translations', '_previous_state'];
+        return ['__isInitialized__', 'id', 'enabled', 'image', 'cleanURLs', 'metaDescType', 'position', 'editLanguage', 'translations', '_previous_state'];
     }
 
     /**
@@ -203,61 +203,6 @@ class Page extends \XLite\Module\CDev\SimpleCMS\Model\Page implements \Doctrine\
     }
 
     
-    /**
-     * {@inheritDoc}
-     */
-    public function setShowSocialButtons($showSocialButtons)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setShowSocialButtons', [$showSocialButtons]);
-
-        return parent::setShowSocialButtons($showSocialButtons);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getOpenGraphMetaTags($preprocessed = true)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getOpenGraphMetaTags', [$preprocessed]);
-
-        return parent::getOpenGraphMetaTags($preprocessed);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setUseCustomOG($useCustomOG)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUseCustomOG', [$useCustomOG]);
-
-        return parent::setUseCustomOG($useCustomOG);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getUseCustomOG()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUseCustomOG', []);
-
-        return parent::getUseCustomOG();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getShowSocialButtons()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getShowSocialButtons', []);
-
-        return parent::getShowSocialButtons();
-    }
-
     /**
      * {@inheritDoc}
      */

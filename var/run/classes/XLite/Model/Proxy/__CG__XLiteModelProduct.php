@@ -94,10 +94,10 @@ class Product extends \XLite\Model\Product implements \Doctrine\ORM\Proxy\Proxy
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', 'featuredProducts', 'attachments', 'useCustomOG', 'marketPrice', 'pinCodesEnabled', 'autoPinCodes', 'pinCodes', 'views_stats', 'purchase_stats', 'participateSale', 'discountType', 'salePriceValue', 'csLastUpdate', 'xcPendingBulkEdit', 'tabs', 'isCustomerAttachmentsAvailable', 'isCustomerAttachmentsRequired', 'facebookMarketingEnabled', 'freeShip', 'shipForFree', 'freightFixedFee', 'googleFeedEnabled', 'useAsSegmentCondition', 'demo', 'tags', 'reviews', 'reviewAddedByUser', 'votesCount', 'reviewsCount', 'averageRating', 'upsellingProducts', 'upsellingParentProducts', 'YMPaymentSubject', 'product_id', 'price', 'sku', 'enabled', 'weight', 'useSeparateBox', 'boxWidth', 'boxLength', 'boxHeight', 'itemsPerBox', 'free_shipping', 'taxable', 'arrivalDate', 'date', 'updateDate', 'needProcess', 'categoryProducts', 'order_items', 'images', 'inventoryEnabled', 'amount', 'lowLimitEnabledCustomer', 'lowLimitEnabled', 'lowLimitAmount', 'productClass', 'taxClass', 'attributes', 'attributeValueC', 'attributeValueT', 'attributeValueS', 'attributeValueH', 'attrSepTab', 'sold', 'quickData', 'attrValues', 'memberships', 'cleanURLs', 'metaDescType', 'sales', 'xcPendingExport', 'editLanguage', 'translations', '_previous_state', 'entityVersion'];
+            return ['__isInitialized__', 'featuredProducts', 'attachments', 'marketPrice', 'pinCodesEnabled', 'autoPinCodes', 'pinCodes', 'views_stats', 'purchase_stats', 'participateSale', 'discountType', 'salePriceValue', 'tabs', 'useAsSegmentCondition', 'demo', 'tags', 'reviews', 'reviewAddedByUser', 'votesCount', 'reviewsCount', 'averageRating', 'upsellingProducts', 'upsellingParentProducts', 'YMPaymentSubject', 'product_id', 'price', 'sku', 'enabled', 'weight', 'useSeparateBox', 'boxWidth', 'boxLength', 'boxHeight', 'itemsPerBox', 'free_shipping', 'taxable', 'arrivalDate', 'date', 'updateDate', 'needProcess', 'categoryProducts', 'order_items', 'images', 'inventoryEnabled', 'amount', 'lowLimitEnabledCustomer', 'lowLimitEnabled', 'lowLimitAmount', 'productClass', 'taxClass', 'attributes', 'attributeValueC', 'attributeValueT', 'attributeValueS', 'attributeValueH', 'attrSepTab', 'sold', 'quickData', 'attrValues', 'memberships', 'cleanURLs', 'metaDescType', 'sales', 'xcPendingExport', 'editLanguage', 'translations', '_previous_state', 'entityVersion'];
         }
 
-        return ['__isInitialized__', 'featuredProducts', 'attachments', 'useCustomOG', 'marketPrice', 'pinCodesEnabled', 'autoPinCodes', 'pinCodes', 'views_stats', 'purchase_stats', 'participateSale', 'discountType', 'salePriceValue', 'csLastUpdate', 'xcPendingBulkEdit', 'tabs', 'isCustomerAttachmentsAvailable', 'isCustomerAttachmentsRequired', 'facebookMarketingEnabled', 'freeShip', 'shipForFree', 'freightFixedFee', 'googleFeedEnabled', 'useAsSegmentCondition', 'demo', 'tags', 'reviews', 'reviewAddedByUser', 'votesCount', 'reviewsCount', 'averageRating', 'upsellingProducts', 'upsellingParentProducts', 'YMPaymentSubject', 'product_id', 'price', 'sku', 'enabled', 'weight', 'useSeparateBox', 'boxWidth', 'boxLength', 'boxHeight', 'itemsPerBox', 'free_shipping', 'taxable', 'arrivalDate', 'date', 'updateDate', 'needProcess', 'categoryProducts', 'order_items', 'images', 'inventoryEnabled', 'amount', 'lowLimitEnabledCustomer', 'lowLimitEnabled', 'lowLimitAmount', 'productClass', 'taxClass', 'attributes', 'attributeValueC', 'attributeValueT', 'attributeValueS', 'attributeValueH', 'attrSepTab', 'sold', 'quickData', 'attrValues', 'memberships', 'cleanURLs', 'metaDescType', 'sales', 'xcPendingExport', 'editLanguage', 'translations', '_previous_state', 'entityVersion'];
+        return ['__isInitialized__', 'featuredProducts', 'attachments', 'marketPrice', 'pinCodesEnabled', 'autoPinCodes', 'pinCodes', 'views_stats', 'purchase_stats', 'participateSale', 'discountType', 'salePriceValue', 'tabs', 'useAsSegmentCondition', 'demo', 'tags', 'reviews', 'reviewAddedByUser', 'votesCount', 'reviewsCount', 'averageRating', 'upsellingProducts', 'upsellingParentProducts', 'YMPaymentSubject', 'product_id', 'price', 'sku', 'enabled', 'weight', 'useSeparateBox', 'boxWidth', 'boxLength', 'boxHeight', 'itemsPerBox', 'free_shipping', 'taxable', 'arrivalDate', 'date', 'updateDate', 'needProcess', 'categoryProducts', 'order_items', 'images', 'inventoryEnabled', 'amount', 'lowLimitEnabledCustomer', 'lowLimitEnabled', 'lowLimitAmount', 'productClass', 'taxClass', 'attributes', 'attributeValueC', 'attributeValueT', 'attributeValueS', 'attributeValueH', 'attrSepTab', 'sold', 'quickData', 'attrValues', 'memberships', 'cleanURLs', 'metaDescType', 'sales', 'xcPendingExport', 'editLanguage', 'translations', '_previous_state', 'entityVersion'];
     }
 
     /**
@@ -267,39 +267,6 @@ class Product extends \XLite\Model\Product implements \Doctrine\ORM\Proxy\Proxy
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getFilteredAttachments', [$profile]);
 
         return parent::getFilteredAttachments($profile);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getOpenGraphMetaTags($preprocessed = true)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getOpenGraphMetaTags', [$preprocessed]);
-
-        return parent::getOpenGraphMetaTags($preprocessed);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setUseCustomOG($useCustomOG)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUseCustomOG', [$useCustomOG]);
-
-        return parent::setUseCustomOG($useCustomOG);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getUseCustomOG()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUseCustomOG', []);
-
-        return parent::getUseCustomOG();
     }
 
     /**
@@ -624,72 +591,6 @@ class Product extends \XLite\Model\Product implements \Doctrine\ORM\Proxy\Proxy
     /**
      * {@inheritDoc}
      */
-    public function getCloudSearchEntityType()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityType', []);
-
-        return parent::getCloudSearchEntityType();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEntityIds()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEntityIds', []);
-
-        return parent::getCloudSearchEntityIds();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCloudSearchEventAction()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCloudSearchEventAction', []);
-
-        return parent::getCloudSearchEventAction();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCsLastUpdate()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCsLastUpdate', []);
-
-        return parent::getCsLastUpdate();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setCsLastUpdate($csLastUpdate)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setCsLastUpdate', [$csLastUpdate]);
-
-        return parent::setCsLastUpdate($csLastUpdate);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getTranslatedMetaDesc($translation)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getTranslatedMetaDesc', [$translation]);
-
-        return parent::getTranslatedMetaDesc($translation);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function changeAmount($delta)
     {
 
@@ -729,182 +630,6 @@ class Product extends \XLite\Model\Product implements \Doctrine\ORM\Proxy\Proxy
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getGlobalTabs', []);
 
         return parent::getGlobalTabs();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setIsCustomerAttachmentsAvailable($isCustomerAttachmentsAvailable)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setIsCustomerAttachmentsAvailable', [$isCustomerAttachmentsAvailable]);
-
-        return parent::setIsCustomerAttachmentsAvailable($isCustomerAttachmentsAvailable);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getIsCustomerAttachmentsAvailable()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getIsCustomerAttachmentsAvailable', []);
-
-        return parent::getIsCustomerAttachmentsAvailable();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setIsCustomerAttachmentsRequired($isCustomerAttachmentsRequired)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setIsCustomerAttachmentsRequired', [$isCustomerAttachmentsRequired]);
-
-        return parent::setIsCustomerAttachmentsRequired($isCustomerAttachmentsRequired);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getIsCustomerAttachmentsRequired()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getIsCustomerAttachmentsRequired', []);
-
-        return parent::getIsCustomerAttachmentsRequired();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function isCustomerAttachmentsMandatory()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isCustomerAttachmentsMandatory', []);
-
-        return parent::isCustomerAttachmentsMandatory();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getFacebookMarketingEnabled()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getFacebookMarketingEnabled', []);
-
-        return parent::getFacebookMarketingEnabled();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setFacebookMarketingEnabled($facebookMarketingEnabled)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setFacebookMarketingEnabled', [$facebookMarketingEnabled]);
-
-        return parent::setFacebookMarketingEnabled($facebookMarketingEnabled);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setFreeShip($freeShip)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setFreeShip', [$freeShip]);
-
-        return parent::setFreeShip($freeShip);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getFreeShip()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getFreeShip', []);
-
-        return parent::getFreeShip();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function isShipForFree()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isShipForFree', []);
-
-        return parent::isShipForFree();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setShipForFree($shipForFree)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setShipForFree', [$shipForFree]);
-
-        return parent::setShipForFree($shipForFree);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setFreightFixedFee($freightFixedFee)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setFreightFixedFee', [$freightFixedFee]);
-
-        return parent::setFreightFixedFee($freightFixedFee);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getFreightFixedFee()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getFreightFixedFee', []);
-
-        return parent::getFreightFixedFee();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getGoogleFeedEnabled()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getGoogleFeedEnabled', []);
-
-        return parent::getGoogleFeedEnabled();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setGoogleFeedEnabled($googleFeedEnabled)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setGoogleFeedEnabled', [$googleFeedEnabled]);
-
-        return parent::setGoogleFeedEnabled($googleFeedEnabled);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getGoogleFeedParams()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getGoogleFeedParams', []);
-
-        return parent::getGoogleFeedParams();
     }
 
     /**

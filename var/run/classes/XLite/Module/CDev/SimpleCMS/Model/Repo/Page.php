@@ -17,4 +17,4 @@ namespace XLite\Module\CDev\SimpleCMS\Model\Repo;
  *   )
  * )
  */
-class Page extends \XLite\Module\CDev\GoSocial\Module\CDev\SimpleCMS\Model\Repo\Page {}
+class Page extends \XLite\Module\CDev\SimpleCMS\Model\Repo\PageSitemap {}

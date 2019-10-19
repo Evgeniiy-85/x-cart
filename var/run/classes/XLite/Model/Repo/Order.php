@@ -9,4 +9,4 @@ namespace XLite\Model\Repo;
  * @Api\Operation\Update(modelClass="XLite\Model\Order", summary="Update order by id")
  * @Api\Operation\Delete(modelClass="XLite\Model\Order", summary="Delete order by id")
  */
-class Order extends \XLite\Module\CDev\Egoods\Model\Repo\Order {}
+class Order extends \XLite\Module\CDev\PINCodes\Model\Repo\Order {}

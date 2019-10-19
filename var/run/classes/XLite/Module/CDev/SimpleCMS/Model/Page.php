@@ -10,4 +10,4 @@ namespace XLite\Module\CDev\SimpleCMS\Model;
  *      }
  * )
  */
-class Page extends \XLite\Module\CDev\GoSocial\Model\Page {}
+class Page extends \XLite\Module\XC\ThemeTweaker\Model\Page {}

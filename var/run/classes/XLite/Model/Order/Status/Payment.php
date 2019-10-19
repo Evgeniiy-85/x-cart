@@ -10,4 +10,4 @@ namespace XLite\Model\Order\Status;
  *      }
  * )
  */
-class Payment extends \XLite\Module\CDev\GoogleAnalytics\Model\Order\Status\Payment {}
+class Payment extends \XLite\Module\CDev\PINCodes\Model\Order\Status\Payment {}

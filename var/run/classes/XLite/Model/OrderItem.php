@@ -18,4 +18,4 @@ namespace XLite\Model;
  * @DiscriminatorMap      ({"product" = "XLite\Model\OrderItem"})
  * @HasLifecycleCallbacks
  */
-class OrderItem extends \XLite\Module\CDev\Egoods\Model\OrderItem {}
+class OrderItem extends \XLite\Module\CDev\PINCodes\Model\OrderItem {}

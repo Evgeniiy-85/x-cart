@@ -13,7 +13,7 @@ use Includes\Utils\Module\Manager;
 /**
  * Module settings
  */
- class Module extends \XLite\Module\QSL\CloudSearch\Controller\Admin\Module implements \XLite\Base\IDecorator
+ class Module extends \XLite\Module\XC\Geolocation\Controller\Admin\Module implements \XLite\Base\IDecorator
 {
     /**
      * handleRequest

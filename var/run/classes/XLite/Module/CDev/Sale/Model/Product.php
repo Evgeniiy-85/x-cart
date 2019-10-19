@@ -12,7 +12,7 @@ namespace XLite\Module\CDev\Sale\Model;
  * Product
  *
  */
- class Product extends \XLite\Module\QSL\CloudSearch\Model\IndexingEventTriggers\Product implements \XLite\Base\IDecorator
+ class Product extends \XLite\Module\QSL\FlyoutCategoriesMenu\Model\Product implements \XLite\Base\IDecorator
 {
     /**
      * The "Discount type" field is equal to this constant if it is "Sale price"

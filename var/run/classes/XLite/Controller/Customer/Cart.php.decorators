@@ -1,1 +1,1 @@
-C:74:"Includes\Decorator\ClassBuilder\DependencyExtractor\DecoratedClassMetadata":234:{["classes\/XLite\/Module\/XC\/CustomerAttachments\/Controller\/Customer\/Cart.php","classes\/XLite\/Module\/CDev\/Paypal\/Controller\/Customer\/Cart.php","classes\/XLite\/Module\/CDev\/GoogleAnalytics\/Controller\/Customer\/Cart.php"]}
+C:74:"Includes\Decorator\ClassBuilder\DependencyExtractor\DecoratedClassMetadata":72:{["classes\\XLite\\Module\\CDev\\Paypal\\Controller\\Customer\\Cart.php"]}

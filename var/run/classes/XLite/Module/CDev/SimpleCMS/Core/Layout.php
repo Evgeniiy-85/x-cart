@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\SimpleCMS\Core;
 /**
  * Layout manager
  */
- class Layout extends \XLite\Module\QSL\CloudSearch\Core\Layout implements \XLite\Base\IDecorator
+ class Layout extends \XLite\Module\XC\CrispWhiteSkin\Core\Layout implements \XLite\Base\IDecorator
 {
     /**
      * Get logo

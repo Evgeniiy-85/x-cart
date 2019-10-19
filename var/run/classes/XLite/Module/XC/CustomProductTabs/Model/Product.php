@@ -11,7 +11,7 @@ namespace XLite\Module\XC\CustomProductTabs\Model;
 /**
  * The "Product" decoration model class
  */
-abstract class Product extends \XLite\Module\XC\CustomerAttachments\Model\Product implements \XLite\Base\IDecorator
+abstract class Product extends \XLite\Module\XC\MailChimp\Model\Product implements \XLite\Base\IDecorator
 {
     /**
      * Order tabs

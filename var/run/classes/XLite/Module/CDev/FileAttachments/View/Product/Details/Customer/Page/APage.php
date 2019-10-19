@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\FileAttachments\View\Product\Details\Customer\Page;
 /**
  * Abstract product page 
  */
-abstract class APage extends \XLite\Module\CDev\GoSocial\View\Product\Details\Customer\Page\APage implements \XLite\Base\IDecorator
+abstract class APage extends \XLite\Module\CDev\ProductAdvisor\View\Details implements \XLite\Base\IDecorator
 {
     /**
      * Check - product has Description tab or not

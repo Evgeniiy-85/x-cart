@@ -94,10 +94,10 @@ class ProductClass extends \XLite\Model\ProductClass implements \Doctrine\ORM\Pr
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', 'coupons', 'categories', 'id', 'position', 'attributes', 'attribute_groups', 'editLanguage', 'translations', '_previous_state'];
+            return ['__isInitialized__', 'categories', 'id', 'position', 'attributes', 'attribute_groups', 'editLanguage', 'translations', '_previous_state'];
         }
 
-        return ['__isInitialized__', 'coupons', 'categories', 'id', 'position', 'attributes', 'attribute_groups', 'editLanguage', 'translations', '_previous_state'];
+        return ['__isInitialized__', 'categories', 'id', 'position', 'attributes', 'attribute_groups', 'editLanguage', 'translations', '_previous_state'];
     }
 
     /**
@@ -203,28 +203,6 @@ class ProductClass extends \XLite\Model\ProductClass implements \Doctrine\ORM\Pr
     }
 
     
-    /**
-     * {@inheritDoc}
-     */
-    public function addCoupons(\XLite\Module\CDev\Coupons\Model\Coupon $coupons)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addCoupons', [$coupons]);
-
-        return parent::addCoupons($coupons);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCoupons()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCoupons', []);
-
-        return parent::getCoupons();
-    }
-
     /**
      * {@inheritDoc}
      */

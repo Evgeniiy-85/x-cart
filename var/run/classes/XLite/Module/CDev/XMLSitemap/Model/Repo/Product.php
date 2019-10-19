@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\XMLSitemap\Model\Repo;
 /**
  * Products repository
  */
-abstract class Product extends \XLite\Module\QSL\CloudSearch\Model\Repo\Product implements \XLite\Base\IDecorator
+abstract class Product extends \XLite\Module\XC\NextPreviousProduct\Model\Repo\Product implements \XLite\Base\IDecorator
 {
     /**
      * Define sitemap generation iterator query builder

@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\VolumeDiscounts\Controller\Admin;
 /**
  * Order page controller
  */
- class Order extends \XLite\Module\XC\CustomerAttachments\Controller\Admin\Order implements \XLite\Base\IDecorator
+ class Order extends \XLite\Module\XC\NotFinishedOrders\Controller\Admin\Order implements \XLite\Base\IDecorator
 {
     /**
      * Assemble volume discount dump surcharge

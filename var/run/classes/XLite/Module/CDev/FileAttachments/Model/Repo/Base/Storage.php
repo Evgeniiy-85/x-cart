@@ -11,7 +11,7 @@ namespace XLite\Module\CDev\FileAttachments\Model\Repo\Base;
 /**
  * Abstract storage repository
  */
-abstract class Storage extends \XLite\Module\XC\CustomerAttachments\Model\Repo\Base\Storage implements \XLite\Base\IDecorator
+abstract class Storage extends \XLite\Module\XC\RESTAPI\Model\Repo\Base\Storage implements \XLite\Base\IDecorator
 {
     /**
      * Define all storage-based repositories classes list
