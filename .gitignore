@@ -1,1 +1,3 @@
-/var/datacache
+/var/datacache/
+/var/run/skins/
+/var/resources/
