@@ -55,7 +55,7 @@
     "uglify-js": "^2.6.1",
     "vue": "^1.0.20",
     "webpack": "^1.12.12",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^3.8.2"
   },
   "files": [
     "dist/vue-validator.js",
