@@ -33,3 +33,13 @@
 2019-10-19 18:19:19	[scenario5dab294e5765c3.13264469]	INFO	Run hook: classes/XLite/Module/XC/ThemeTweaker/hooks/rebuild.php
 2019-10-19 18:19:19	[scenario5dab294e5765c3.13264469]	INFO	XCart\Bus\Rebuild\Executor\Step\Execute\XCartStepFinalize:initialize
 2019-10-19 18:19:30	[scenario5dab294e5765c3.13264469]	INFO	XCart\Bus\Rebuild\Executor\Step\Execute\EditionChange:initialize
+2019-10-19 18:38:04	[scenario5dab2ddc34cb19.42013093]	INFO	XCart\Bus\Rebuild\Executor\Step\Execute\UpdateModulesList:initialize
+2019-10-19 18:38:07	[scenario5dab2ddc34cb19.42013093]	INFO	XCart\Bus\Rebuild\Executor\Step\Execute\XCartStep:initialize
+2019-10-19 18:38:36	[scenario5dab2ddc34cb19.42013093]	INFO	XCart\Bus\Rebuild\Executor\Step\Execute\UpdateDataSource:initialize
+2019-10-19 18:38:36	[scenario5dab2ddc34cb19.42013093]	INFO	XCart\Bus\Rebuild\Executor\Step\Execute\UpdateDataSource:refreshInstalledModulesDataSource
+2019-10-19 18:38:36	[scenario5dab2ddc34cb19.42013093]	INFO	XCart\Bus\Rebuild\Executor\Step\Execute\RebuildHook:initialize
+2019-10-19 18:38:37	[scenario5dab2ddc34cb19.42013093]	INFO	Run hook: classes/XLite/Module/CDev/UserPermissions/hooks/rebuild.php
+2019-10-19 18:38:38	[scenario5dab2ddc34cb19.42013093]	INFO	Run hook: classes/XLite/Module/XC/CustomProductTabs/hooks/rebuild.php
+2019-10-19 18:38:39	[scenario5dab2ddc34cb19.42013093]	INFO	Run hook: classes/XLite/Module/XC/ThemeTweaker/hooks/rebuild.php
+2019-10-19 18:38:39	[scenario5dab2ddc34cb19.42013093]	INFO	XCart\Bus\Rebuild\Executor\Step\Execute\XCartStepFinalize:initialize
+2019-10-19 18:38:49	[scenario5dab2ddc34cb19.42013093]	INFO	XCart\Bus\Rebuild\Executor\Step\Execute\EditionChange:initialize

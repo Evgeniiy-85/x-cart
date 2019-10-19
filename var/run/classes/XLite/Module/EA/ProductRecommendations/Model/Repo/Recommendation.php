@@ -38,4 +38,22 @@ class Recommendation extends \XLite\Model\Repo\ARepo
                 ->setParameter('productId', $value->getProductId());
         }
     }
+
+    /**
+     * Prepare certain search condition
+     *
+     * @param \Doctrine\ORM\QueryBuilder $queryBuilder Query builder to prepare
+     * @param array|string               $value        Condition data
+     * @param boolean                    $countOnly    "Count only" flag. Do not need to add "order by" clauses
+     *                                                 if only count is needed.
+     *
+     * @return void
+     */
+    protected function prepareCndStatus(\Doctrine\ORM\QueryBuilder $queryBuilder, $value, $countOnly)
+    {
+        if (isset($value) && '%' != $value) {
+            $queryBuilder->andWhere('r.status = :status')
+                ->setParameter('status', $value);
+        }
+    }
 }
