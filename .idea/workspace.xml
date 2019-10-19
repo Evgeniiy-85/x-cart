@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77ac9627-20e8-41ae-9948-058541ba3fad" name="Default Changelist" comment="" />
+    <list default="true" id="77ac9627-20e8-41ae-9948-058541ba3fad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump_1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump_2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/service/busInstalledModulesStorage.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/service/busInstalledModulesStorage.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/service/coreConfigStorage.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/service/coreConfigStorage.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/service/setStorage.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/service/setStorage.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/.lessFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/.lessFiles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/resources/admin/http/screen/1cd9b90026a84a9c559f28a8c3070596.css" beforeDir="false" afterPath="$PROJECT_DIR$/var/resources/admin/http/screen/1cd9b90026a84a9c559f28a8c3070596.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/resources/default/http/screen/627ff9424d5c1badfd15fda2a996f458.css" beforeDir="false" afterPath="$PROJECT_DIR$/var/resources/default/http/screen/627ff9424d5c1badfd15fda2a996f458.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/resources/default/http/screen/fa6e548d908a19fa8cbbaec21e0ca91e.css" beforeDir="false" afterPath="$PROJECT_DIR$/var/resources/default/http/screen/fa6e548d908a19fa8cbbaec21e0ca91e.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Model/Recommendation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="182" selection-start-line="182" selection-end-line="182" />
+            <state relative-caret-position="401">
+              <caret line="168" column="7" lean-forward="true" selection-start-line="168" selection-start-column="7" selection-end-line="168" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -109,10 +131,12 @@
       <dir>E:\Server\projects\x-cart\classes\XLite\Module</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/classes/XLite/Module/XC/News/Controller/Customer/NewsMessages.php" />
         <option value="$PROJECT_DIR$/classes/XLite/Module/XC/News/View/ItemsList/NewsMessages/ANewsMessages.php" />
         <option value="$PROJECT_DIR$/classes/XLite/Module/XC/News/View/ItemsList/NewsMessages/NewsMessages.php" />
         <option value="$PROJECT_DIR$/classes/XLite/Module/XC/Reviews/View/Customer/ProductReviews.php" />
@@ -163,20 +187,23 @@
         <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/Recommendation.php" />
         <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Model/Recommendation.php" />
         <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/install.yaml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="261" />
-    <option name="y" value="267" />
-    <option name="width" value="2073" />
-    <option name="height" value="1209" />
+    <option name="x" value="228" />
+    <option name="y" value="435" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,66 +214,17 @@
             <path>
               <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="XLite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="XLite" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="skins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="skins" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="skins" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="skins" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="EA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="skins" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="EA" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductRecommendations" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test/1.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -256,19 +234,19 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Server\projects\x-cart" />
+      <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\Controller\Admin" />
+      <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\Controller\Customer" />
+      <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\View\ItemsList\Model\Customer" />
+      <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\View\ItemsList\Model" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\View\ItemsList\Model" />
       <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\View\ItemsList\Model\Admin" />
       <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\View\Customer" />
       <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\View" />
       <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\View\Button" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\Controller\Admin" />
-      <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\Controller\Customer" />
-      <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\View\ItemsList\Model\Customer" />
-      <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\View\ItemsList\Model" />
-      <recent name="E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations\View" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -312,17 +290,18 @@
       <workItem from="1571407398644" duration="6237000" />
       <workItem from="1571463898167" duration="13595000" />
       <workItem from="1571477683881" duration="14586000" />
+      <workItem from="1571495206201" duration="297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251235000" />
+    <option name="totallyTimeSpent" value="251532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24052916" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24353577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -368,13 +347,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/XC/Reviews/View/Form/AverageRating.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="63" column="34" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/items_list/model/table/recommendation/action.link.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -581,16 +553,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/var/log/2019/10/php_errors.log.2019-10-19.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/log/2019/10/xlite.log.2019-10-19.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/var/log/2019/10/php_errors.log.2019-10-19.php" />
+    <entry file="file://$PROJECT_DIR$/var/log/2019/10/xlite.log.2019-10-19.php" />
     <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/buttons/addRecommendtion.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -700,8 +664,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Model/Recommendation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        <state relative-caret-position="401">
+          <caret line="168" column="7" lean-forward="true" selection-start-line="168" selection-start-column="7" selection-end-line="168" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
