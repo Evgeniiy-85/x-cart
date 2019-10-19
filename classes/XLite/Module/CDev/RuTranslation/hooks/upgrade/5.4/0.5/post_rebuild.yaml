@@ -1,0 +1,13 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+XLite\Model\Notification:
+  - { templatesDirectory: backorder_created, translations: [{ code: ru, name: "Оформлен заказ на товар, которого нет в наличии", description: "Данное уведомление посылается администратору если один или более товаров в заказе оказались недоступны на складе в момент оформления заказа.", adminSubject: "Приобретен товар под заказ: %backordered_item_names%", adminText: '<p dir="ltr">Покупатель только что оформил заказ, содержащий товар, которого сейчас нет в наличии. Время пополнить запасы товара на складе.&nbsp;</p><p dir="ltr"><a href="%order_link%">Просмотреть заказ #%order_number%</a></p>' }]}
+
+XLite\Model\LanguageLabel:
+  - { name: 'This order was placed at the same time as {{orders}}; as a result, some items were out of stock at the time of order placement.', translations: [{ code: ru, label: 'Данный заказ был создан одновременно с заказом {{orders}}; в результате некоторые товары в момент создания заказа отсутствовали на складе. <a href="{{kb_link}}" target="_blank">Подробнее</a>' }]}
+  - { name: 'Configure', translations: [{ code: ru, label: 'Настроить' }] }

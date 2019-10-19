@@ -1,0 +1,7 @@
+<div class="product-recommendations">
+    {% for recommendation in this.getRecommendations() %}
+        <div class="product-recommendation">
+            <a href="{{ recommendation.link }}" target="_blank">{{ recommendation.quote }}</a>
+        </div>
+    {% endfor %}
+</div>

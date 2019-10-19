@@ -1,0 +1,18 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Metadata
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+version: 5.4.0.5
+type: common
+authorName: 'Evgeniy Aynulov'
+moduleName: 'Product Recommendations'
+description: 'Is the module through which you will be able under your product post quotes about the good work recommendations from known sources.'
+minorRequiredCoreVersion: 0
+dependsOn: {  }
+incompatibleWith: {  }
+skins: {  }
+showSettingsForm: true
+canDisable: true
