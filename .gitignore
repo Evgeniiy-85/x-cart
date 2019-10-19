@@ -1,4 +1,4 @@
-/var/datacache/
-/var/resources/
-/var/run/skins/
-/var/log/
+/var/datacache/*
+/var/resources/*
+/var/run/skins/*
+/var/log/*
