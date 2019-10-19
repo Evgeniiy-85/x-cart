@@ -14,3 +14,6 @@
 [2019-10-19 17:38:32] b8cffa348f7f6d293c6e38ab552335e1 service-marketplace.INFO: Request to marketplace "XCart\Marketplace\Request\Addons"
 [2019-10-19 17:38:36] b8cffa348f7f6d293c6e38ab552335e1 service-marketplace.INFO: Response from marketplace correctly received "XCart\Marketplace\Request\Addons"
 [2019-10-19 17:38:36] b8cffa348f7f6d293c6e38ab552335e1 service-marketplace.INFO: Request to marketplace "XCart\Marketplace\Request\Cores"
+[2019-10-19 18:19:35] 6c09dd3b7a4226144f85bb126b47117d service-marketplace.INFO: Request to marketplace "XCart\Marketplace\Request\Addons"
+[2019-10-19 18:19:39] 6c09dd3b7a4226144f85bb126b47117d service-marketplace.INFO: Response from marketplace correctly received "XCart\Marketplace\Request\Addons"
+[2019-10-19 18:19:39] 6c09dd3b7a4226144f85bb126b47117d service-marketplace.INFO: Request to marketplace "XCart\Marketplace\Request\Cores"

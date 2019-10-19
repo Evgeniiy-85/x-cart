@@ -225,7 +225,7 @@ shared_secret_key = "5dab1cc12da068.96940754"
 ; Some options to optimize the store
 ;
 [performance]
-developer_mode = Off
+developer_mode = On
 
 ; Enable to cache resource paths
 skins_cache = off

@@ -21,17 +21,17 @@ class Recommendation extends \XLite\View\Model\AModel
         $this->schemaDefault = [
             'quote'       => [
                 self::SCHEMA_CLASS    => 'XLite\View\FormField\Textarea\Simple',
-                self::SCHEMA_LABEL    => 'Text of quote',
+                self::SCHEMA_LABEL    => 'Quote',
                 self::SCHEMA_REQUIRED => false,
             ],
             'link'      => [
                 self::SCHEMA_CLASS       => 'XLite\View\FormField\Input\Text\URL',
-                self::SCHEMA_LABEL       => 'link to source',
+                self::SCHEMA_LABEL       => 'Link',
                 self::SCHEMA_REQUIRED    => false,
             ],
             'status'      => [
                 self::SCHEMA_CLASS       => 'XLite\View\FormField\Input\Checkbox\OnOff',
-                self::SCHEMA_LABEL       => 'status',
+                self::SCHEMA_LABEL       => 'Status',
                 self::SCHEMA_REQUIRED    => false,
             ]
         ];
@@ -40,7 +40,7 @@ class Recommendation extends \XLite\View\Model\AModel
 
         /** @var \XLite\Module\EA\ProductRecommendations\Model\Recommendation $recommendation */
         $recommendation = $this->getModelObject();
-       
+
         if (
             $recommendation->getRespondent()
             && $recommendation->getRespondent()->isPermissionAllowed(\XLite\Model\Role\Permission::ROOT_ACCESS)
