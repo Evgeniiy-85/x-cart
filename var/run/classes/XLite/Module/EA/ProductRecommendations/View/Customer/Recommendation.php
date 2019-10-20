@@ -30,22 +30,7 @@ class Recommendation extends \XLite\View\AView
     public function getCSSFiles()
     {
         $list = parent::getCSSFiles();
-
-        $list[] = 'modules/EA/ProductRecommendations/style.css';
-
-        return $list;
-    }
-
-    /**
-     * Get a list of JS files required to display the widget properly
-     *
-     * @return array
-     */
-    public function getJSFiles()
-    {
-        $list = parent::getJSFiles();
-
-        $list[] = 'modules/EA/ProductRecommendations/main.js';
+        $list[] = 'modules/EA/ProductRecommendations/product/details/style.css';
 
         return $list;
     }
@@ -78,7 +63,6 @@ class Recommendation extends \XLite\View\AView
     protected function getDir()
     {
         return 'modules/EA/ProductRecommendations/product/details';
-
     }
 
     /**
@@ -99,7 +83,6 @@ class Recommendation extends \XLite\View\AView
     public function getRecommendations()
     {
         if (empty($this->recommendations)) {
-
             $cnd = new \XLite\Core\CommonCell;
             $cnd->{\XLite\Module\EA\ProductRecommendations\Model\Repo\Recommendation::SEARCH_PRODUCT} = $this->getProduct();
             $cnd->{\XLite\Module\EA\ProductRecommendations\Model\Repo\Recommendation::SEARCH_STATUS} = 1;
@@ -108,5 +91,15 @@ class Recommendation extends \XLite\View\AView
         }
 
         return $this->recommendations;
+    }
+
+    /**
+     * Get block title
+     *
+     * @return string
+     */
+    public function getTitle()
+    {
+        return \XLite\Core\Translation::lbl('Product recommendations');
     }
 }

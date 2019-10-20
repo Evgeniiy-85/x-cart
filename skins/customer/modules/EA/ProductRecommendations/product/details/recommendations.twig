@@ -1,7 +1,13 @@
 <div class="product-recommendations">
+    <div class="product-recommendations-title">{{ this.getTitle() }}</div>
     {% for recommendation in this.getRecommendations() %}
         <div class="product-recommendation">
-            <a href="{{ recommendation.link }}" target="_blank">{{ recommendation.quote }}</a>
+            <div class="product-recommendation-quote">
+                <span>"{{ recommendation.quote }}"</span>
+            </div>
+            <div class="product-recommendation-source">
+                <a href="{{ recommendation.link }}" target="_blank">{{ recommendation.quoteSourceName }}</a>
+            </div>
         </div>
     {% endfor %}
 </div>

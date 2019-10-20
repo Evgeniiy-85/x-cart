@@ -16,7 +16,7 @@ class Recommendations extends \XLite\Controller\Admin\AAdmin
 {
     public function checkACL()
     {
-        return parent::checkACL() || \XLite\Core\Auth::getInstance()->isPermissionAllowed('manage recommendations');
+        return parent::checkACL() || \XLite\Core\Auth::getInstance()->isPermissionAllowed('manage product recommendations');
     }
 
     /**

@@ -20,13 +20,18 @@ class Recommendation extends \XLite\View\Model\AModel
     {
         $this->schemaDefault = [
             'quote'       => [
-                self::SCHEMA_CLASS    => 'XLite\View\FormField\Textarea\Simple',
-                self::SCHEMA_LABEL    => 'Quote',
-                self::SCHEMA_REQUIRED => false,
+                self::SCHEMA_CLASS      => 'XLite\View\FormField\Textarea\Simple',
+                self::SCHEMA_LABEL      => 'Quote',
+                self::SCHEMA_REQUIRED   => false,
             ],
-            'link'      => [
+            'sourceName'  => [
+                self::SCHEMA_CLASS      => 'XLite\View\FormField\Textarea\Simple',
+                self::SCHEMA_LABEL      => 'Source name',
+                self::SCHEMA_REQUIRED   => false,
+            ],
+            'sourceLink'      => [
                 self::SCHEMA_CLASS       => 'XLite\View\FormField\Input\Text\URL',
-                self::SCHEMA_LABEL       => 'Link',
+                self::SCHEMA_LABEL       => 'Source Link',
                 self::SCHEMA_REQUIRED    => false,
             ],
             'status'      => [

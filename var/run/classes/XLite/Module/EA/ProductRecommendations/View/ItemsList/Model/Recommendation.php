@@ -18,10 +18,11 @@ class Recommendation extends \XLite\View\ItemsList\Model\Table
     /**
      * Allowed sort criteria
      */
-    const SORT_BY_MODE_QUOTE            = 'r.quote';
-    const SORT_BY_MODE_LINK             = 'r.link';
-    const SORT_BY_MODE_STATUS           = 'r.status';
-    const SORT_BY_MODE_ADDITION_DATE    = 'r.additionDate';
+    const SORT_BY_MODE_QUOTE             = 'r.quote';
+    const SORT_BY_MODE_SOURCE_NAME       = 'r.sourceName';
+    const SORT_BY_MODE_SOURCE_LINK       = 'r.sourceLink';
+    const SORT_BY_MODE_STATUS            = 'r.status';
+    const SORT_BY_MODE_ADDITION_DATE     = 'r.additionDate';
 
     /**
      * Should itemsList be wrapped with form
@@ -123,10 +124,11 @@ class Recommendation extends \XLite\View\ItemsList\Model\Table
     public function __construct(array $params = [])
     {
         $this->sortByModes += [
-            static::SORT_BY_MODE_QUOTE       => 'Quote',
-            static::SORT_BY_MODE_STATUS         => 'Status',
-            static::SORT_BY_MODE_ADDITION_DATE  => 'Addition date',
-            static::SORT_BY_MODE_LINK  => 'Link',
+            static::SORT_BY_MODE_QUOTE              => 'Quote',
+            static::SORT_BY_MODE_SOURCE_NAME        => 'Source name',
+            static::SORT_BY_MODE_SOURCE_LINK        => 'Source link',
+            static::SORT_BY_MODE_STATUS             => 'Status',
+            static::SORT_BY_MODE_ADDITION_DATE      => 'Addition date',
         ];
 
         parent::__construct($params);
@@ -161,13 +163,19 @@ class Recommendation extends \XLite\View\ItemsList\Model\Table
                 static::COLUMN_NAME     => \XLite\Core\Translation::lbl('Quote'),
                 static::COLUMN_TEMPLATE => 'modules/EA/ProductRecommendations/recommendations/cell/quote.twig',
                 static::COLUMN_SORT     => static::SORT_BY_MODE_QUOTE,
+                static::COLUMN_ORDERBY  => 100,
+            ],
+            'sourceName' => [
+                static::COLUMN_NAME     => \XLite\Core\Translation::lbl('Source name'),
+                static::COLUMN_TEMPLATE => 'modules/EA/ProductRecommendations/recommendations/cell/source_name.twig',
+                static::COLUMN_SORT     => static::SORT_BY_MODE_SOURCE_NAME,
                 static::COLUMN_ORDERBY  => 200,
             ],
-            'link' => [
-                static::COLUMN_NAME     => \XLite\Core\Translation::lbl('Link'),
-                static::COLUMN_TEMPLATE => 'modules/EA/ProductRecommendations/recommendations/cell/link.twig',
-                static::COLUMN_SORT     => static::SORT_BY_MODE_LINK,
-                static::COLUMN_ORDERBY  => 250,
+            'sourceLink' => [
+                static::COLUMN_NAME     => \XLite\Core\Translation::lbl('Source link'),
+                static::COLUMN_TEMPLATE => 'modules/EA/ProductRecommendations/recommendations/cell/source_link.twig',
+                static::COLUMN_SORT     => static::SORT_BY_MODE_SOURCE_LINK,
+                static::COLUMN_ORDERBY  => 300,
             ],
             'status' => [
                 static::COLUMN_NAME     => \XLite\Core\Translation::lbl('Status'),

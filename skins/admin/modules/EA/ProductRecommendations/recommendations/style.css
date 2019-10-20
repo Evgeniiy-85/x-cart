@@ -11,7 +11,7 @@
   max-width: 175px;
 }
 
-.cell .quote {
+.cell .quote, .cell .source-link {
   max-width: 300px;
   overflow: hidden;
   text-overflow: ellipsis;

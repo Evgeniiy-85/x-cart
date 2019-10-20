@@ -66,13 +66,22 @@ class Recommendation extends \XLite\Model\AEntity
     protected $quote = '';
 
     /**
-     * Link (text)
+     * Source Name (text)
+     *
+     * @var string
+     *
+     * @Column (type="text", nullable=true)
+     */
+    protected $sourceName = '';
+
+    /**
+     * Source Link (text)
      *
      * @var string
      *
      * @Column (type="text")
      */
-    protected $link = '';
+    protected $sourceLink = '';
 
     /**
      * Get id

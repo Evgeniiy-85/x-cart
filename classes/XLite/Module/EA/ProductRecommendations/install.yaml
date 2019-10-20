@@ -11,7 +11,8 @@ XLite\Model\LanguageLabel:
   - { name: 'Add recommendation', translations: [{ code: 'en', label: 'Add recommendation' }, { code: 'ru', label: 'Добавить рекоммендацию' }] }
   - { name: 'Edit recommendation', translations: [{ code: 'en', label: 'Edit recommendation' }, { code: 'ru', label: 'Редактировать рекоммендацию' }] }
   - { name: 'Quote', translations: [{ code: 'en', label: 'Quote text' }, { code: 'ru', label: 'Текст цитаты' }] }
-  - { name: 'Link', translations: [{ code: 'en', label: 'Reference to the source' }, { code: 'ru', label: 'Ссылка на источник' }] }
+  - { name: 'Source name', translations: [{ code: 'en', label: 'Source name' }, { code: 'ru', label: 'Название источника' }] }
+  - { name: 'Source link', translations: [{ code: 'en', label: 'Source link' }, { code: 'ru', label: 'Ссылка на источник' }] }
   - { name: 'Published', translations: [{ code: 'en', label: 'Published' }, { code: 'ru', label: 'Опубликовано' }] }
   - { name: 'Unpublished', translations: [{ code: 'en', label: 'Unpublished' }, { code: 'ru', label: 'Не опубликовано' }] }
   - { name: 'Addition date', translations: [{ code: 'en', label: 'Addition date' }, { code: 'ru', label: 'Дата добавления' }] }
