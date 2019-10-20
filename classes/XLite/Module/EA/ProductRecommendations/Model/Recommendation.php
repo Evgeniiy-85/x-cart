@@ -72,7 +72,7 @@ class Recommendation extends \XLite\Model\AEntity
      *
      * @Column (type="text", nullable=true)
      */
-    protected $sourceName = '';
+    protected $source_name = '';
 
     /**
      * Source Link (text)
@@ -81,7 +81,7 @@ class Recommendation extends \XLite\Model\AEntity
      *
      * @Column (type="text")
      */
-    protected $sourceLink = '';
+    protected $source_link = '';
 
     /**
      * Get id

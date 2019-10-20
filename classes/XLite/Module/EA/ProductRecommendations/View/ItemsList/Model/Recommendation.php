@@ -19,8 +19,8 @@ class Recommendation extends \XLite\View\ItemsList\Model\Table
      * Allowed sort criteria
      */
     const SORT_BY_MODE_QUOTE             = 'r.quote';
-    const SORT_BY_MODE_SOURCE_NAME       = 'r.sourceName';
-    const SORT_BY_MODE_SOURCE_LINK       = 'r.sourceLink';
+    const SORT_BY_MODE_SOURCE_NAME       = 'r.source_name';
+    const SORT_BY_MODE_SOURCE_LINK       = 'r.source_link';
     const SORT_BY_MODE_STATUS            = 'r.status';
     const SORT_BY_MODE_ADDITION_DATE     = 'r.additionDate';
 
@@ -163,15 +163,15 @@ class Recommendation extends \XLite\View\ItemsList\Model\Table
                 static::COLUMN_NAME     => \XLite\Core\Translation::lbl('Quote'),
                 static::COLUMN_TEMPLATE => 'modules/EA/ProductRecommendations/recommendations/cell/quote.twig',
                 static::COLUMN_SORT     => static::SORT_BY_MODE_QUOTE,
-                static::COLUMN_ORDERBY  => 100,
+                static::COLUMN_ORDERBY  => 200,
             ],
-            'sourceName' => [
+            'source_name' => [
                 static::COLUMN_NAME     => \XLite\Core\Translation::lbl('Source name'),
                 static::COLUMN_TEMPLATE => 'modules/EA/ProductRecommendations/recommendations/cell/source_name.twig',
                 static::COLUMN_SORT     => static::SORT_BY_MODE_SOURCE_NAME,
                 static::COLUMN_ORDERBY  => 200,
             ],
-            'sourceLink' => [
+            'source_link' => [
                 static::COLUMN_NAME     => \XLite\Core\Translation::lbl('Source link'),
                 static::COLUMN_TEMPLATE => 'modules/EA/ProductRecommendations/recommendations/cell/source_link.twig',
                 static::COLUMN_SORT     => static::SORT_BY_MODE_SOURCE_LINK,

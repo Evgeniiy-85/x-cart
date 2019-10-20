@@ -1,0 +1,10 @@
+{##
+ # Recommendation status
+ #}
+
+{% if this.isPublished(this.entity) %}
+  <div class="published">{{ t('Published') }}</div>
+{% endif %}
+{% if not this.isPublished(this.entity) %}
+  <div class="unpublished">{{ t('Unpublished') }}</div>
+{% endif %}

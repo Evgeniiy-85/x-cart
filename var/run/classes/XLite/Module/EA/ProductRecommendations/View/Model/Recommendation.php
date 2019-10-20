@@ -24,12 +24,12 @@ class Recommendation extends \XLite\View\Model\AModel
                 self::SCHEMA_LABEL      => 'Quote',
                 self::SCHEMA_REQUIRED   => false,
             ],
-            'sourceName'  => [
-                self::SCHEMA_CLASS      => 'XLite\View\FormField\Textarea\Simple',
+            'source_name'  => [
+                self::SCHEMA_CLASS      => 'XLite\View\FormField\Input\Text',
                 self::SCHEMA_LABEL      => 'Source name',
                 self::SCHEMA_REQUIRED   => false,
             ],
-            'sourceLink'      => [
+            'source_link'      => [
                 self::SCHEMA_CLASS       => 'XLite\View\FormField\Input\Text\URL',
                 self::SCHEMA_LABEL       => 'Source Link',
                 self::SCHEMA_REQUIRED    => false,

@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ac9627-20e8-41ae-9948-058541ba3fad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_link.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Controller/Admin/Recommendations.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Controller/Admin/Recommendations.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Model/Recommendation.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Model/Recommendation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/Customer/Recommendation.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/Customer/Recommendation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/Recommendation.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/Recommendation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/Model/Recommendation.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/Model/Recommendation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/install.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/install.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/service/busMarketplaceModulesStorage.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/service/busMarketplaceModulesStorage.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/service/busInstalledModulesStorage.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/service/busInstalledModulesStorage.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/service/coreConfigStorage.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/service/coreConfigStorage.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/service/scenarioStorage.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/service/scenarioStorage.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/service/scriptStateStorage.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/service/scriptStateStorage.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/service/setStorage.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/service/setStorage.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/form_field/inline/input/text/product/product_name.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/link.twig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/quote.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/quote.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_link.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_link.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_name.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_name.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/recommendations.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/recommendations.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/.lessFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/.lessFiles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/run/.cacheGenerated.1.step" beforeDir="false" afterPath="$PROJECT_DIR$/var/run/.cacheGenerated.1.step" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/run/.cacheGenerated.10.step" beforeDir="false" afterPath="$PROJECT_DIR$/var/run/.cacheGenerated.10.step" afterDir="false" />
@@ -38,8 +32,9 @@
       <change beforePath="$PROJECT_DIR$/var/run/.cacheGenerated.9.step" beforeDir="false" afterPath="$PROJECT_DIR$/var/run/.cacheGenerated.9.step" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/run/.datacacheSuffix" beforeDir="false" afterPath="$PROJECT_DIR$/var/run/.datacacheSuffix" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/run/classes/XLite/Model/Proxy/__CG__XLiteModuleEAProductRecommendationsModelRecommendation.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/run/classes/XLite/Model/Proxy/__CG__XLiteModuleEAProductRecommendationsModelRecommendation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/run/classes/XLite/Module/CDev/PINCodes/Controller/Admin/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/run/classes/XLite/Module/CDev/PINCodes/Controller/Admin/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/run/classes/XLite/Module/EA/ProductRecommendations/Controller/Admin/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/run/classes/XLite/Module/EA/ProductRecommendations/Controller/Admin/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/run/classes/XLite/Module/EA/ProductRecommendations/Model/Recommendation.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/run/classes/XLite/Module/EA/ProductRecommendations/Model/Recommendation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/run/classes/XLite/Module/EA/ProductRecommendations/View/Customer/Recommendation.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/run/classes/XLite/Module/EA/ProductRecommendations/View/Customer/Recommendation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/run/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/Recommendation.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/run/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/Recommendation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/run/classes/XLite/Module/EA/ProductRecommendations/View/Model/Recommendation.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/run/classes/XLite/Module/EA/ProductRecommendations/View/Model/Recommendation.php" afterDir="false" />
     </list>
@@ -51,11 +46,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/hooks/remove.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/recommendations.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="308">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -64,12 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>creat</find>
-      <find>getAdditionDate</find>
-      <find>modified:</find>
-      <find>deve</find>
-      <find>var/run/skins</find>
-      <find>$status</find>
       <find>setStatus</find>
       <find>SEARCH_STATUS</find>
       <find>static::t</find>
@@ -94,6 +92,12 @@
       <find>link</find>
       <find>manage</find>
       <find>new_review</find>
+      <find>profile_id</find>
+      <find>self::SCHEMA_REQUIRED</find>
+      <find>source</find>
+      <find>e\View\FormField\Input\Text</find>
+      <find>additionDate</find>
+      <find>product-recommendation</find>
     </findStrings>
     <replaceStrings>
       <replace>show_quote_recommendations</replace>
@@ -132,22 +136,22 @@
       <dir>E:\Server\projects\x-cart\classes\XLite\Model\Product</dir>
       <dir>E:\Server\projects\x-cart\var\run\classes\XLite\Module\EA</dir>
       <dir>E:\Server\projects\x-cart\classes\XLite\Module\XC\MailChimp\Model\Repo</dir>
-      <dir>E:\Server\projects\x-cart\classes</dir>
       <dir>E:\Server\projects\x-cart\classes\XLite\Modulefile_put_contents</dir>
       <dir>E:\Server\projects\x-cart\skins\admin\modules\EA</dir>
       <dir>E:\Server\projects\x-cart\classes\XLite\Module\XC\Reviews\View</dir>
       <dir>E:\Server\projects\x-cart\skins\admin\modules\XC\Reviews</dir>
       <dir>E:\Server\projects\x-cart\skins\admin\modules\EA\ProductRecommendations</dir>
-      <dir>E:\Server\projects\x-cart\classes\XLite\Module</dir>
       <dir>E:\Server\projects\x-cart\skins\customer</dir>
       <dir>E:\Server\projects\x-cart\skins\customer\modules</dir>
       <dir>E:\Server\projects\x-cart\var</dir>
       <dir>E:\Server\projects\x-cart\classes\XLite\Module\XC</dir>
       <dir>E:\Server\projects\x-cart\skins\admin\modules</dir>
-      <dir>E:\Server\projects\x-cart</dir>
-      <dir>E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations</dir>
       <dir>E:\Server\projects\x-cart\classes\XLite\Module\EA</dir>
       <dir>E:\Server\projects\x-cart\classes\XLite\Module\XC\Reviews</dir>
+      <dir>E:\Server\projects\x-cart</dir>
+      <dir>E:\Server\projects\x-cart\classes</dir>
+      <dir>E:\Server\projects\x-cart\classes\XLite\Module\EA\ProductRecommendations</dir>
+      <dir>E:\Server\projects\x-cart\classes\XLite\Module</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -188,25 +192,25 @@
         <option value="$PROJECT_DIR$/var/run/skins/0a/0a722acf2840a046b7d11da75359630fddeca382c8389a1c406eb50fdb5259b1.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/style.css" />
-        <option value="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/style.css" />
-        <option value="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/recommendations.twig" />
         <option value="E:/test.txt" />
         <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/Customer/Recommendation.php" />
         <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/ProductRecommendation.php" />
         <option value="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/form_field/inline/input/text/product/product_name.twig" />
         <option value="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/quote_source_name.twig" />
-        <option value="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/quote.twig" />
         <option value="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/link.twig" />
-        <option value="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/style.css" />
-        <option value="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_name.twig" />
-        <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/Recommendation.php" />
-        <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Model/Recommendation.php" />
         <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/install.yaml" />
-        <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/Model/Recommendation.php" />
-        <option value="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_link.twig" />
         <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Controller/Admin/Recommendations.php" />
         <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/hooks/remove.php" />
         <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/hooks/upgrade/5.4/0/post_rebuild.yaml" />
+        <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Model/Recommendation.php" />
+        <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/Model/Recommendation.php" />
+        <option value="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_link.twig" />
+        <option value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/Recommendation.php" />
+        <option value="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/style.css" />
+        <option value="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_name.twig" />
+        <option value="$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/quote.twig" />
+        <option value="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/recommendations.twig" />
+        <option value="$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/style.css" />
       </list>
     </option>
   </component>
@@ -272,6 +276,29 @@
               <item name="Module" type="462c0819:PsiDirectoryNode" />
               <item name="EA" type="462c0819:PsiDirectoryNode" />
               <item name="ProductRecommendations" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="XLite" type="462c0819:PsiDirectoryNode" />
+              <item name="Module" type="462c0819:PsiDirectoryNode" />
+              <item name="EA" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductRecommendations" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="ItemsList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="XLite" type="462c0819:PsiDirectoryNode" />
+              <item name="Module" type="462c0819:PsiDirectoryNode" />
+              <item name="EA" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductRecommendations" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="ItemsList" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,102 +310,7 @@
               <item name="EA" type="462c0819:PsiDirectoryNode" />
               <item name="ProductRecommendations" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="XLite" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="XLite" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-              <item name="News" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="XLite" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-              <item name="News" type="462c0819:PsiDirectoryNode" />
-              <item name="hooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="XLite" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-              <item name="Reviews" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="XLite" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-              <item name="Reviews" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="XLite" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-              <item name="Reviews" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="XLite" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-              <item name="Reviews" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomProductTabs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="XLite" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-              <item name="Reviews" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomProductTabs" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="XLite" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-              <item name="Reviews" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="XC" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomProductTabs" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="ItemsList" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
@@ -389,20 +321,20 @@
               <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="x-cart" type="462c0819:PsiDirectoryNode" />
               <item name="skins" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="x-cart" type="462c0819:PsiDirectoryNode" />
               <item name="skins" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="x-cart" type="462c0819:PsiDirectoryNode" />
               <item name="skins" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="EA" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -410,10 +342,36 @@
               <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="x-cart" type="462c0819:PsiDirectoryNode" />
               <item name="skins" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="EA" type="462c0819:PsiDirectoryNode" />
               <item name="ProductRecommendations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
+              <item name="skins" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="EA" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductRecommendations" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
+              <item name="skins" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="EA" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductRecommendations" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="details" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="x-cart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="x-cart" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,7 +383,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../evodent" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -497,13 +455,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269084000" />
+    <option name="totallyTimeSpent" value="272260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27480456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21828021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -560,39 +518,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/XC/Reviews/View/Product/Details/Customer/Page/Tabs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/resources/css/customer/modules/EA/ProductRecommendations/product/details/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/XC/Reviews/install.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3168" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/recommendations.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/error_handler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -649,9 +574,6 @@
     <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/form_field/response.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/product/recommendations.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/form_field/response.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -661,13 +583,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/Model/Recommendation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -717,72 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-919">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/Recommendation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/cell.date.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/status.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/quote.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/ProductRecommendation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1738">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_name.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/Recommendation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Model/Recommendation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_link.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -862,6 +711,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/product/recommendations.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/Model/Recommendation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1953">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/Model/Recommendation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/Recommendation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/admin/modules/XC/Reviews/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/ProductRecommendation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/XLite/Module/EA/ProductRecommendations/View/ItemsList/Model/Recommendation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="167" column="12" selection-start-line="167" selection-start-column="12" selection-end-line="172" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/admin/modules/XC/Reviews/reviews/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_link.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/quote.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/cell.date.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/source_name.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/admin/modules/EA/ProductRecommendations/recommendations/cell/status.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/recommendations.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/customer/modules/EA/ProductRecommendations/product/details/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>

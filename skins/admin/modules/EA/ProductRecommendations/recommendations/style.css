@@ -7,11 +7,7 @@
  * See https://www.x-cart.com/license-agreement.html for license details.
  */
 
-.cell .product {
-  max-width: 175px;
-}
-
-.cell .quote, .cell .source-link {
+.cell .quote, .cell .source-link, .cell .source-name {
   max-width: 300px;
   overflow: hidden;
   text-overflow: ellipsis;

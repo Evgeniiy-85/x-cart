@@ -94,10 +94,10 @@ class Recommendation extends \XLite\Module\EA\ProductRecommendations\Model\Recom
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', 'id', 'additionDate', 'status', 'quote', 'sourceName', 'sourceLink', 'product', '_previous_state'];
+            return ['__isInitialized__', 'id', 'additionDate', 'status', 'quote', 'source_name', 'source_link', 'product', '_previous_state'];
         }
 
-        return ['__isInitialized__', 'id', 'additionDate', 'status', 'quote', 'sourceName', 'sourceLink', 'product', '_previous_state'];
+        return ['__isInitialized__', 'id', 'additionDate', 'status', 'quote', 'source_name', 'source_link', 'product', '_previous_state'];
     }
 
     /**
